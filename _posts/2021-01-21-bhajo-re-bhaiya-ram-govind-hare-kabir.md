@@ -10,7 +10,7 @@ All that's needed to gain the blessings and vision of the Lord is sing his sweet
 
 Only an avadhootha can convey such a deep meaning in such few words, so sweetly. 
 
-### Meaning of bhajo re bhaiyya
+### Lyrics of bhajo re bhaiyya
 
 _bhajo re bhaiya  
 rAm govind hari_ 
