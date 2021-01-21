@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "bhajo re bhaiyya, rAm govinda hare"
 ---
 **bhajo re bhaiyya, rAm govinda hare** is a very popular bhajan written by [Sant Kabir](https://en.wikipedia.org/wiki/Kabir), a 15th-century Indian mystic poet and saint who was one of the spearheads of the bhakti movement. 
 
