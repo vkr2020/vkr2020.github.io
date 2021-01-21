@@ -11,7 +11,6 @@ All that's needed to gain the blessings and vision of the Lord is sing his sweet
 Only an avadhootha can convey such a deep meaning in such few words, so sweetly. 
 
 <br>
-<br>
 ### Meaning of bhajo re bhaiyya
 
 _bhajo re bhaiya  
@@ -30,27 +29,25 @@ jA mukh rAm nahi
 woh mukh dhool pari_ 
 
 <br>
-<br>
 ### Meaning of bhajo re bhaiyya
 
-Oh brother/friend/devotee, please sing rAma govinda hari  
+Oh brother, please sing rAma govinda hari  
   
-Oh brother/friend/devotee, please sing rAma govinda hari  
+Oh brother, please sing rAma govinda hari  
 It does not need japa _(mantra chanting)_ or tapa _(penances)_  
 It does not cost you anything!   
   
-Oh brother/friend/devotee, please sing rAma govinda hari  
-Family (progeny) and Wealth give you happiness
-But, they also make you forget the name of the Lord
-
+Oh brother, please sing rAma govinda hari  
+Family (progeny) and Wealth give you happiness  
+But, they also make you forget the name of the Lord  
 
 kabIr says - 
-Who's mouth does not utter the name of rAma
+Who's mouth does not utter the name of rAma  
 His mouth is the same as a mouth filled with dust
 
 Oh brother/friend/devotee, please sing rAma govinda hari  
-  
-  
+
+<br>
 ### bhajo re bhaiyya sung by M. S. Subbalakshmi
   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qGCGtt_lxA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
