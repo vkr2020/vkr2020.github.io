@@ -28,22 +28,18 @@ jA mukh rAm nahi
 woh mukh dhool pari_ 
 
 ### Meaning of bhajo re bhaiyya
-
-Oh brother, please sing the names of the Lord  
-rAma govinda hari  
   
 Oh brother, please sing the names of the Lord  
-rAma govinda hari    
+rAma govinda hari  
+
 It does not need japa _(mantra chanting)_ or tapa _(penances)_  
 It does not cost you anything!   
   
-Oh brother, please sing the names of the Lord  
-rAma govinda hari  
 Family (progeny) and Wealth give you happiness  
 But, they also make you forget the name of the Lord  
 
-kabIr says - 
-Who's mouth does not utter the name of rAma  
+kabIr says -   
+He, whose mouth does not utter the name of rAma  
 His mouth is the same as a mouth filled with dust  
 
 Oh brother, please sing the names of the Lord  
