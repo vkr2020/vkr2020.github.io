@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is my spiritual diary where I chronicle my daily meditations, thoughts, practices, and progress. I hope to reach the end of this spiritual journey in this life itself and arrive at a path that heopfully, others can use to remove themselves from this life of misery, greed, and endless pleasure-seeking cycles. I will explore paths as they appear on my journey with an open mind (as open as I can possible afford) and talk about that as well.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Thank you. 
