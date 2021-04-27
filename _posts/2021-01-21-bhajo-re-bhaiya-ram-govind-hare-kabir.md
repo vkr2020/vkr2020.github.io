@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "bhajo re bhaiyya, rAm govinda hare"
+permalink: "bhajo-re-bhaiya-ram-govind-hare-kabir-doha"
+published: true
+category: songs
 ---
+
 **bhajo re bhaiyya, rAm govinda hare** is a very popular bhajan written by [Sant Kabir](https://en.wikipedia.org/wiki/Kabir), a 15th-century Indian mystic poet and saint who was one of the spearheads of the bhakti movement. 
 
 The meaning conveyed by this bhajan is so sweet and straightforward. All Kabir does is to tell you to sing the name of the Lord (rAma). He says that it is so easy to sing the Lord's name - doesn't need any complex yagna, japa sAdhana, rituals, etc. 
