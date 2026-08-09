@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The important AI developments today, connected to the events that came before them.">
+  <title>Entities — aibrief.fyi</title>
+  <script data-goatcounter="https://fyibriefai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <style>
+    :root {
+      --bg: #f2f1ed;
+      --surface: #fff;
+      --ink: #131311;
+      --secondary: #6e6e66;
+      --tertiary: #92928a;
+      --line: #d9d8d3;
+      --accent: #b82b18;
+      --accent-soft: #fdf5f3;
+      --memory: #1a5f8a;
+      --memory-bg: #eef4f9;
+      --memory-line: #b8d4e8;
+      --type-meta: 12px;
+      --type-copy: 15px;
+      --type-heading: 20px;
+      --type-display: clamp(36px, 4.4vw, 48px);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: var(--type-copy)/1.52 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.52;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); }
+    .wrap { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+    .content-frame { width: 100%; max-width: 940px; }
+    .homepage .content-frame { max-width: none; }
+    .masthead { padding-top: 28px; }
+    .masthead-inner { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px 24px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+    .brand { font: 700 var(--type-display)/1 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+    .tagline { margin-top: 5px; color: var(--secondary); font-size: var(--type-meta); letter-spacing: .04em; }
+    .edition { text-align: right; color: var(--secondary); font-size: var(--type-meta); line-height: 1.6; }
+    .edition strong { display: block; color: var(--ink); font-weight: 600; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--secondary); font-size: var(--type-copy); }
+    nav a:hover { color: var(--accent); }
+    main { padding-bottom: 42px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
+    h1 { max-width: 840px; font-size: var(--type-display); line-height: 1.04; letter-spacing: -.028em; }
+    h2 { font-size: var(--type-heading); line-height: 1.12; letter-spacing: -.018em; }
+    .paper { padding: 34px 0; }
+    .eyebrow { margin-bottom: 9px; color: var(--accent); font-size: var(--type-meta); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .dek { max-width: 760px; color: #343431; font-family: Georgia, "Times New Roman", serif; font-size: var(--type-heading); }
+    .meta { color: var(--secondary); font-size: var(--type-meta); }
+    .pill { display: inline-block; margin: 3px 5px 3px 0; padding: 3px 7px; border: 1px solid var(--line); background: rgba(255,255,255,.45); font-size: var(--type-meta); }
+    .why { max-width: 720px; padding-left: 14px; border-left: 3px solid var(--line); color: #3a3a37; }
+    .event-list { margin: 0; padding: 0; list-style: none; }
+    .event-row { padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .event-row h2 { max-width: 800px; margin: 7px 0 9px; }
+    .event-row p { max-width: 760px; color: var(--secondary); }
+    .sources, .memory-list { margin: 12px 0 0; padding-left: 20px; }
+    .sources li, .memory-list li { margin: 7px 0; }
+    .source-name { margin-left: 6px; color: var(--secondary); font-size: var(--type-meta); letter-spacing: .05em; text-transform: uppercase; }
+    .section-rule { margin: 30px 0 16px; padding-top: 13px; border-top: 2px solid var(--ink); }
+    .memory-card { max-width: 720px; margin-top: 18px; padding: 14px 16px; border-left: 3px solid var(--memory); background: var(--memory-bg); }
+    .memory-tag { color: var(--memory); font-size: var(--type-meta); font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .memory-headline { margin-top: 6px; font: 700 var(--type-copy)/1.3 Georgia, "Times New Roman", serif; }
+    .memory-gloss { margin-top: 5px; color: var(--secondary); font-size: var(--type-copy); }
+    .memory-list a { color: var(--memory); }
+    .empty { padding: 28px 0; color: var(--secondary); }
+    .directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 25px; border-top: 1px solid var(--line); }
+    .directory a { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); font: 700 var(--type-heading)/1.2 Georgia, "Times New Roman", serif; }
+    .directory a:nth-child(odd) { padding-right: 22px; }
+    .directory a:nth-child(even) { padding-left: 22px; border-left: 1px solid var(--line); }
+    .directory span { color: var(--tertiary); font: var(--type-meta)/1.5 Arial, sans-serif; }
+    input[type="search"] { width: 100%; max-width: 720px; padding: 12px 13px; border: 1px solid #aaa; background: var(--surface); color: var(--ink); font: var(--type-copy) Arial, sans-serif; }
+    footer { padding: 18px 0 32px; border-top: 1px solid var(--line); color: var(--tertiary); font-size: var(--type-meta); line-height: 1.6; }
+    .quiet-subscribe { display: flex; align-items: center; gap: 8px; margin-bottom: 17px; color: var(--secondary); font-size: var(--type-copy); }
+    .quiet-subscribe input { min-width: 220px; padding: 7px 9px; border: 0; border-bottom: 1px solid var(--secondary); background: transparent; font: inherit; }
+    .quiet-subscribe button { padding: 7px 0; border: 0; background: transparent; color: var(--ink); font-weight: 600; cursor: pointer; }
+    @media (max-width: 640px) {
+      .wrap { width: 100%; padding-right: 16px; padding-left: 16px; }
+      .masthead { padding-top: 20px; }
+      .masthead-inner { display: block; }
+      .edition { margin-top: 15px; text-align: left; }
+      nav { gap: 13px; white-space: nowrap; }
+      .paper { padding-top: 28px; }
+      .directory { grid-template-columns: 1fr; }
+      .directory a:nth-child(odd), .directory a:nth-child(even) { padding-right: 0; padding-left: 0; border-left: 0; }
+      .quiet-subscribe { display: block; }
+      .quiet-subscribe input { width: 100%; margin-top: 7px; }
+      .quiet-subscribe button { margin-top: 6px; }
+    }
+  </style>
+</head>
+<body class="">
+  <header class="wrap masthead">
+    <div class="masthead-inner">
+      <div>
+        <a class="brand" href="/">aibrief.fyi</a>
+        <div class="tagline">AI news, with memory.</div>
+      </div>
+      <div class="edition">
+        <strong>Saturday, August 8, 2026</strong>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="/">Today</a>
+      <a href="/companies.html">Companies</a>
+      <a href="/topics.html">Topics</a>
+      <a href="/search/">Search</a>
+    </nav>
+  </header>
+  <main class="wrap"><div class="content-frame"><section class="paper">
+  <div class="eyebrow">People, models, products, and organizations</div>
+  <h1>Entities</h1>
+  <p class="dek">Browse everything AIbrief has recorded about the entities in its archive.</p>
+  <div class="directory">
+<a href="/entity/openai.html">OpenAI <span>32 events</span></a><a href="/entity/anthropic.html">Anthropic <span>26 events</span></a><a href="/entity/google.html">Google <span>13 events</span></a><a href="/entity/chatgpt.html">ChatGPT <span>9 events</span></a><a href="/entity/nvidia.html">Nvidia <span>9 events</span></a><a href="/entity/amazon.html">Amazon <span>7 events</span></a><a href="/entity/meta.html">Meta <span>7 events</span></a><a href="/entity/gemini.html">Gemini <span>4 events</span></a><a href="/entity/amazon-web-services.html">Amazon Web Services <span>3 events</span></a><a href="/entity/apple.html">Apple <span>3 events</span></a><a href="/entity/claude.html">Claude <span>3 events</span></a><a href="/entity/fable.html">Fable <span>3 events</span></a><a href="/entity/google-deepmind.html">Google DeepMind <span>3 events</span></a><a href="/entity/hugging-face.html">Hugging Face <span>3 events</span></a><a href="/entity/microsoft.html">Microsoft <span>3 events</span></a><a href="/entity/andreessen-horowitz.html">Andreessen Horowitz <span>2 events</span></a><a href="/entity/aws.html">AWS <span>2 events</span></a><a href="/entity/claude-code.html">Claude Code <span>2 events</span></a><a href="/entity/cloudflare.html">Cloudflare <span>2 events</span></a><a href="/entity/donald-trump.html">Donald Trump <span>2 events</span></a><a href="/entity/moonshot-ai.html">Moonshot AI <span>2 events</span></a><a href="/entity/mythos.html">Mythos <span>2 events</span></a><a href="/entity/noam-shazeer.html">Noam Shazeer <span>2 events</span></a><a href="/entity/safe-superintelligence.html">Safe Superintelligence <span>2 events</span></a><a href="/entity/sam-altman.html">Sam Altman <span>2 events</span></a><a href="/entity/suno.html">Suno <span>2 events</span></a><a href="/entity/a24.html">A24 <span>1 event</span></a><a href="/entity/agent-memory.html">Agent Memory <span>1 event</span></a><a href="/entity/agent-plugins-1-0.html">Agent Plugins 1.0 <span>1 event</span></a><a href="/entity/agentforce.html">Agentforce <span>1 event</span></a><a href="/entity/agentradio.html">AgentRadio <span>1 event</span></a><a href="/entity/ai-executive-order.html">AI Executive Order <span>1 event</span></a><a href="/entity/ai-overviews.html">AI Overviews <span>1 event</span></a><a href="/entity/ai-spend-console.html">AI Spend Console <span>1 event</span></a><a href="/entity/airbnb.html">Airbnb <span>1 event</span></a><a href="/entity/airtrunk.html">AirTrunk <span>1 event</span></a><a href="/entity/alexa-for-shopping.html">Alexa for Shopping <span>1 event</span></a><a href="/entity/alexa.html">Alexa+ <span>1 event</span></a><a href="/entity/alexander-pritzel.html">Alexander Pritzel <span>1 event</span></a><a href="/entity/alphabet.html">Alphabet <span>1 event</span></a><a href="/entity/amazon-ring.html">Amazon Ring <span>1 event</span></a><a href="/entity/amd.html">AMD <span>1 event</span></a><a href="/entity/andrej-karpathy.html">Andrej Karpathy <span>1 event</span></a><a href="/entity/android-17.html">Android 17 <span>1 event</span></a><a href="/entity/arm.html">Arm <span>1 event</span></a><a href="/entity/asana.html">Asana <span>1 event</span></a><a href="/entity/assured-robot-intelligence.html">Assured Robot Intelligence <span>1 event</span></a><a href="/entity/astra.html">Astra <span>1 event</span></a><a href="/entity/base44.html">Base44 <span>1 event</span></a><a href="/entity/black-hat.html">Black Hat <span>1 event</span></a><a href="/entity/braintrust.html">Braintrust <span>1 event</span></a><a href="/entity/broadcom.html">Broadcom <span>1 event</span></a><a href="/entity/businessnext.html">BusinessNext <span>1 event</span></a><a href="/entity/bytedance.html">ByteDance <span>1 event</span></a><a href="/entity/cd276.html">CD276 <span>1 event</span></a><a href="/entity/cengage.html">Cengage <span>1 event</span></a><a href="/entity/cerca-partners.html">Cerca Partners <span>1 event</span></a><a href="/entity/chamath-palihapitiya.html">Chamath Palihapitiya <span>1 event</span></a><a href="/entity/check-point.html">Check Point <span>1 event</span></a><a href="/entity/chromium.html">Chromium <span>1 event</span></a><a href="/entity/cisa.html">CISA <span>1 event</span></a><a href="/entity/claude-cowork.html">Claude Cowork <span>1 event</span></a><a href="/entity/claude-opus.html">Claude Opus <span>1 event</span></a><a href="/entity/claude-opus-4-8.html">Claude Opus 4.8 <span>1 event</span></a><a href="/entity/claude-sonnet-5.html">Claude Sonnet 5 <span>1 event</span></a><a href="/entity/codex.html">Codex <span>1 event</span></a><a href="/entity/cognition.html">Cognition <span>1 event</span></a><a href="/entity/commonwealth-fusion-systems.html">Commonwealth Fusion Systems <span>1 event</span></a><a href="/entity/copilotkit.html">CopilotKit <span>1 event</span></a><a href="/entity/coral-ai-labs.html">Coral AI Labs <span>1 event</span></a><a href="/entity/coral-code.html">Coral Code <span>1 event</span></a><a href="/entity/coralogix.html">Coralogix <span>1 event</span></a><a href="/entity/couchbase.html">Couchbase <span>1 event</span></a><a href="/entity/dean-ball.html">Dean Ball <span>1 event</span></a><a href="/entity/deepseek-v4-pro.html">DeepSeek V4 Pro <span>1 event</span></a><a href="/entity/dell.html">Dell <span>1 event</span></a><a href="/entity/disney.html">Disney+ <span>1 event</span></a><a href="/entity/dynamic-workflows.html">Dynamic Workflows <span>1 event</span></a><a href="/entity/earendil.html">Earendil <span>1 event</span></a><a href="/entity/echo-show.html">Echo Show <span>1 event</span></a><a href="/entity/elon-musk.html">Elon Musk <span>1 event</span></a><a href="/entity/elsevier.html">Elsevier <span>1 event</span></a><a href="/entity/eney.html">Eney <span>1 event</span></a><a href="/entity/equal-ai.html">Equal AI <span>1 event</span></a><a href="/entity/etched.html">Etched <span>1 event</span></a><a href="/entity/exaforce.html">Exaforce <span>1 event</span></a><a href="/entity/exclaim-robotics.html">Exclaim Robotics <span>1 event</span></a><a href="/entity/fairground.html">Fairground <span>1 event</span></a><a href="/entity/fenix-flexin.html">Fenix Flexin <span>1 event</span></a><a href="/entity/fin.html">Fin <span>1 event</span></a><a href="/entity/fish-audio.html">Fish Audio <span>1 event</span></a><a href="/entity/flash-cyber.html">Flash Cyber <span>1 event</span></a><a href="/entity/florida-state-university.html">Florida State University <span>1 event</span></a><a href="/entity/gemini-3-5-flash-lite.html">Gemini 3.5 Flash-Lite <span>1 event</span></a><a href="/entity/gemini-3-6-flash.html">Gemini 3.6 Flash <span>1 event</span></a><a href="/entity/gemini-pro.html">Gemini Pro <span>1 event</span></a><a href="/entity/gemini-spark.html">Gemini Spark <span>1 event</span></a><a href="/entity/github.html">GitHub <span>1 event</span></a><a href="/entity/glilot-capital.html">Glilot Capital <span>1 event</span></a><a href="/entity/glow.html">Glow <span>1 event</span></a><a href="/entity/google-antigravity.html">Google Antigravity <span>1 event</span></a><a href="/entity/googlebook.html">Googlebook <span>1 event</span></a><a href="/entity/gpt-5-5.html">GPT-5.5 <span>1 event</span></a><a href="/entity/gpt-5-5-instant.html">GPT-5.5 Instant <span>1 event</span></a><a href="/entity/gpt-5-5-cyber.html">GPT-5.5-Cyber <span>1 event</span></a><a href="/entity/gpt-5-6.html">GPT-5.6 <span>1 event</span></a><a href="/entity/gradium.html">Gradium <span>1 event</span></a><a href="/entity/groq.html">Groq <span>1 event</span></a><a href="/entity/hachette.html">Hachette <span>1 event</span></a><a href="/entity/happyrobot.html">HappyRobot <span>1 event</span></a><a href="/entity/hark.html">Hark <span>1 event</span></a><a href="/entity/have-i-been-pwned.html">Have I Been Pwned <span>1 event</span></a><a href="/entity/hp.html">HP <span>1 event</span></a><a href="/entity/ibm.html">IBM <span>1 event</span></a><a href="/entity/ilya-sutskever.html">Ilya Sutskever <span>1 event</span></a><a href="/entity/imperial-college-london.html">Imperial College London <span>1 event</span></a><a href="/entity/infinity.html">Infinity <span>1 event</span></a><a href="/entity/instagram.html">Instagram <span>1 event</span></a><a href="/entity/jalapeno.html">Jalapeño <span>1 event</span></a><a href="/entity/james-zou.html">James Zou <span>1 event</span></a><a href="/entity/jb-pritzker.html">JB Pritzker <span>1 event</span></a><a href="/entity/jedify.html">Jedify <span>1 event</span></a><a href="/entity/jeff-dean.html">Jeff Dean <span>1 event</span></a><a href="/entity/johannes-heidecke.html">Johannes Heidecke <span>1 event</span></a><a href="/entity/john-jumper.html">John Jumper <span>1 event</span></a><a href="/entity/jonas-adler.html">Jonas Adler <span>1 event</span></a><a href="/entity/khosla-ventures.html">Khosla Ventures <span>1 event</span></a><a href="/entity/kimi.html">Kimi <span>1 event</span></a><a href="/entity/kitesurf.html">Kitesurf <span>1 event</span></a><a href="/entity/kodiak-ai.html">Kodiak AI <span>1 event</span></a><a href="/entity/langchain.html">LangChain <span>1 event</span></a><a href="/entity/langflow.html">Langflow <span>1 event</span></a><a href="/entity/langmem.html">LangMem <span>1 event</span></a><a href="/entity/lfm-open-license-v1-0.html">LFM Open License v1.0 <span>1 event</span></a><a href="/entity/lfm2-5-2-6b.html">LFM2.5-2.6B <span>1 event</span></a><a href="/entity/linkedin.html">LinkedIn <span>1 event</span></a><a href="/entity/liquid-ai.html">Liquid AI <span>1 event</span></a><a href="/entity/lockdown-mode.html">Lockdown Mode <span>1 event</span></a><a href="/entity/lumilens.html">Lumilens <span>1 event</span></a><a href="/entity/macpaw.html">MacPaw <span>1 event</span></a><a href="/entity/mark-gurman.html">Mark Gurman <span>1 event</span></a><a href="/entity/medasin.html">Medasin <span>1 event</span></a><a href="/entity/menlo-ventures.html">Menlo Ventures <span>1 event</span></a><a href="/entity/merck.html">Merck <span>1 event</span></a><a href="/entity/muse-image.html">Muse Image <span>1 event</span></a><a href="/entity/natural.html">Natural <span>1 event</span></a><a href="/entity/naver.html">Naver <span>1 event</span></a><a href="/entity/nemoclaw.html">NemoClaw <span>1 event</span></a><a href="/entity/netris.html">Netris <span>1 event</span></a><a href="/entity/nextslide.html">NextSlide <span>1 event</span></a><a href="/entity/nfx.html">NFX <span>1 event</span></a><a href="/entity/norm.html">Norm <span>1 event</span></a><a href="/entity/norwest.html">Norwest <span>1 event</span></a><a href="/entity/norwest-venture-partners.html">Norwest Venture Partners <span>1 event</span></a><a href="/entity/nova.html">Nova <span>1 event</span></a><a href="/entity/nscale.html">Nscale <span>1 event</span></a><a href="/entity/oak.html">Oak <span>1 event</span></a><a href="/entity/ocean.html">Ocean <span>1 event</span></a><a href="/entity/oceans-ventures.html">Oceans Ventures <span>1 event</span></a><a href="/entity/opus-4-8.html">Opus 4.8 <span>1 event</span></a><a href="/entity/opus-5.html">Opus 5 <span>1 event</span></a><a href="/entity/paperclip.html">Paperclip <span>1 event</span></a><a href="/entity/patch-the-planet.html">Patch the Planet <span>1 event</span></a><a href="/entity/pentagon.html">Pentagon <span>1 event</span></a><a href="/entity/perplexity.html">Perplexity <span>1 event</span></a><a href="/entity/pixel.html">Pixel <span>1 event</span></a><a href="/entity/prime-intellect.html">Prime Intellect <span>1 event</span></a><a href="/entity/principal-vc.html">Principal VC <span>1 event</span></a><a href="/entity/prior-labs.html">Prior Labs <span>1 event</span></a><a href="/entity/probably.html">Probably <span>1 event</span></a><a href="/entity/proxmox.html">Proxmox <span>1 event</span></a><a href="/entity/pwc.html">PwC <span>1 event</span></a><a href="/entity/raspberry-pi.html">Raspberry Pi <span>1 event</span></a><a href="/entity/reddit.html">Reddit <span>1 event</span></a><a href="/entity/reliance-industries.html">Reliance Industries <span>1 event</span></a><a href="/entity/rippling.html">Rippling <span>1 event</span></a><a href="/entity/roku.html">Roku <span>1 event</span></a><a href="/entity/s-capital-vc.html">S Capital VC <span>1 event</span></a><a href="/entity/salesforce.html">Salesforce <span>1 event</span></a><a href="/entity/sandstone.html">Sandstone <span>1 event</span></a><a href="/entity/sap.html">SAP <span>1 event</span></a><a href="/entity/sequoia-capital.html">Sequoia Capital <span>1 event</span></a><a href="/entity/servicenow.html">ServiceNow <span>1 event</span></a><a href="/entity/shai-morag.html">Shai Morag <span>1 event</span></a><a href="/entity/sierra.html">Sierra <span>1 event</span></a><a href="/entity/signalfire.html">SignalFire <span>1 event</span></a><a href="/entity/siri.html">Siri <span>1 event</span></a><a href="/entity/snowflake.html">Snowflake <span>1 event</span></a><a href="/entity/snowflake-ventures.html">Snowflake Ventures <span>1 event</span></a><a href="/entity/sonauto.html">Sonauto <span>1 event</span></a><a href="/entity/spacex.html">SpaceX <span>1 event</span></a><a href="/entity/stackai.html">StackAI <span>1 event</span></a><a href="/entity/stainless.html">Stainless <span>1 event</span></a><a href="/entity/stanford-university.html">Stanford University <span>1 event</span></a><a href="/entity/stripe.html">Stripe <span>1 event</span></a><a href="/entity/supermicro.html">Supermicro <span>1 event</span></a><a href="/entity/swe-atlas-qna.html">SWE-Atlas QnA <span>1 event</span></a><a href="/entity/taalas.html">Taalas <span>1 event</span></a><a href="/entity/team-memory.html">Team Memory <span>1 event</span></a><a href="/entity/tencent.html">Tencent <span>1 event</span></a><a href="/entity/the-new-york-times.html">The New York Times <span>1 event</span></a><a href="/entity/tiktok.html">TikTok <span>1 event</span></a><a href="/entity/time.html">Time <span>1 event</span></a><a href="/entity/together-ai.html">Together AI <span>1 event</span></a><a href="/entity/touring-capital.html">Touring Capital <span>1 event</span></a><a href="/entity/treblo.html">Treblo <span>1 event</span></a><a href="/entity/trusted-contact.html">Trusted Contact <span>1 event</span></a><a href="/entity/u-s-food-and-drug-administration.html">U.S. Food and Drug Administration <span>1 event</span></a><a href="/entity/university-college-london.html">University College London <span>1 event</span></a><a href="/entity/university-of-oxford.html">University of Oxford <span>1 event</span></a><a href="/entity/vapi.html">Vapi <span>1 event</span></a><a href="/entity/wear-os-7.html">Wear OS 7 <span>1 event</span></a><a href="/entity/weathernext.html">WeatherNext <span>1 event</span></a><a href="/entity/wirestock.html">Wirestock <span>1 event</span></a><a href="/entity/wix.html">Wix <span>1 event</span></a>  </div>
+</section>
+</div></main>
+  <footer class="wrap">
+    aibrief.fyi — A permanent record of the AI industry, updated daily.
+  </footer>
+</body>
+</html>

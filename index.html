@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The important AI developments today, connected to the events that came before them.">
+  <title>aibrief.fyi — AI news, with memory.</title>
+  <script data-goatcounter="https://fyibriefai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <style>
+    :root {
+      --bg: #f2f1ed;
+      --surface: #fff;
+      --ink: #131311;
+      --secondary: #6e6e66;
+      --tertiary: #92928a;
+      --line: #d9d8d3;
+      --accent: #b82b18;
+      --accent-soft: #fdf5f3;
+      --memory: #1a5f8a;
+      --memory-bg: #eef4f9;
+      --memory-line: #b8d4e8;
+      --type-meta: 12px;
+      --type-copy: 15px;
+      --type-heading: 20px;
+      --type-display: clamp(36px, 4.4vw, 48px);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: var(--type-copy)/1.52 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.52;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    a:hover { color: var(--accent); }
+    .wrap { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+    .content-frame { width: 100%; max-width: 940px; }
+    .homepage .content-frame { max-width: none; }
+    .masthead { padding-top: 28px; }
+    .masthead-inner { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px 24px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+    .brand { font: 700 var(--type-display)/1 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+    .tagline { margin-top: 5px; color: var(--secondary); font-size: var(--type-meta); letter-spacing: .04em; }
+    .edition { text-align: right; color: var(--secondary); font-size: var(--type-meta); line-height: 1.6; }
+    .edition strong { display: block; color: var(--ink); font-weight: 600; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; padding: 12px 0; border-bottom: 1px solid var(--line); color: var(--secondary); font-size: var(--type-copy); }
+    nav a:hover { color: var(--accent); }
+    main { padding-bottom: 42px; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
+    h1 { max-width: 840px; font-size: var(--type-display); line-height: 1.04; letter-spacing: -.028em; }
+    h2 { font-size: var(--type-heading); line-height: 1.12; letter-spacing: -.018em; }
+    .paper { padding: 34px 0; }
+    .eyebrow { margin-bottom: 9px; color: var(--accent); font-size: var(--type-meta); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .dek { max-width: 760px; color: #343431; font-family: Georgia, "Times New Roman", serif; font-size: var(--type-heading); }
+    .meta { color: var(--secondary); font-size: var(--type-meta); }
+    .pill { display: inline-block; margin: 3px 5px 3px 0; padding: 3px 7px; border: 1px solid var(--line); background: rgba(255,255,255,.45); font-size: var(--type-meta); }
+    .why { max-width: 720px; padding-left: 14px; border-left: 3px solid var(--line); color: #3a3a37; }
+    .event-list { margin: 0; padding: 0; list-style: none; }
+    .event-row { padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .event-row h2 { max-width: 800px; margin: 7px 0 9px; }
+    .event-row p { max-width: 760px; color: var(--secondary); }
+    .sources, .memory-list { margin: 12px 0 0; padding-left: 20px; }
+    .sources li, .memory-list li { margin: 7px 0; }
+    .source-name { margin-left: 6px; color: var(--secondary); font-size: var(--type-meta); letter-spacing: .05em; text-transform: uppercase; }
+    .section-rule { margin: 30px 0 16px; padding-top: 13px; border-top: 2px solid var(--ink); }
+    .memory-card { max-width: 720px; margin-top: 18px; padding: 14px 16px; border-left: 3px solid var(--memory); background: var(--memory-bg); }
+    .memory-tag { color: var(--memory); font-size: var(--type-meta); font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+    .memory-headline { margin-top: 6px; font: 700 var(--type-copy)/1.3 Georgia, "Times New Roman", serif; }
+    .memory-gloss { margin-top: 5px; color: var(--secondary); font-size: var(--type-copy); }
+    .memory-list a { color: var(--memory); }
+    .empty { padding: 28px 0; color: var(--secondary); }
+    .directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 25px; border-top: 1px solid var(--line); }
+    .directory a { display: flex; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--line); font: 700 var(--type-heading)/1.2 Georgia, "Times New Roman", serif; }
+    .directory a:nth-child(odd) { padding-right: 22px; }
+    .directory a:nth-child(even) { padding-left: 22px; border-left: 1px solid var(--line); }
+    .directory span { color: var(--tertiary); font: var(--type-meta)/1.5 Arial, sans-serif; }
+    input[type="search"] { width: 100%; max-width: 720px; padding: 12px 13px; border: 1px solid #aaa; background: var(--surface); color: var(--ink); font: var(--type-copy) Arial, sans-serif; }
+    footer { padding: 18px 0 32px; border-top: 1px solid var(--line); color: var(--tertiary); font-size: var(--type-meta); line-height: 1.6; }
+    .quiet-subscribe { display: flex; align-items: center; gap: 8px; margin-bottom: 17px; color: var(--secondary); font-size: var(--type-copy); }
+    .quiet-subscribe input { min-width: 220px; padding: 7px 9px; border: 0; border-bottom: 1px solid var(--secondary); background: transparent; font: inherit; }
+    .quiet-subscribe button { padding: 7px 0; border: 0; background: transparent; color: var(--ink); font-weight: 600; cursor: pointer; }
+    @media (max-width: 640px) {
+      .wrap { width: 100%; padding-right: 16px; padding-left: 16px; }
+      .masthead { padding-top: 20px; }
+      .masthead-inner { display: block; }
+      .edition { margin-top: 15px; text-align: left; }
+      nav { gap: 13px; white-space: nowrap; }
+      .paper { padding-top: 28px; }
+      .directory { grid-template-columns: 1fr; }
+      .directory a:nth-child(odd), .directory a:nth-child(even) { padding-right: 0; padding-left: 0; border-left: 0; }
+      .quiet-subscribe { display: block; }
+      .quiet-subscribe input { width: 100%; margin-top: 7px; }
+      .quiet-subscribe button { margin-top: 6px; }
+    }
+  </style>
+
+<meta property="og:title" content="OpenAI slows Astra development after internal evaluations cross a cybersecurity threshold">
+<meta property="og:description" content="OpenAI slowed development of Astra after internal evaluations found the model had reached the company&#39;s critical cybersecurity threshold.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aibrief.fyi/">
+<meta property="og:image" content="https://aibrief.fyi/og/2026-08-08-f08f08a718.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="aibrief.fyi — OpenAI slows Astra development after internal evaluations cross a cybersecurity threshold"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OpenAI slows Astra development after internal evaluations cross a cybersecurity threshold">
+<meta name="twitter:description" content="OpenAI slowed development of Astra after internal evaluations found the model had reached the company&#39;s critical cybersecurity threshold.">
+<meta name="twitter:image" content="https://aibrief.fyi/og/2026-08-08-f08f08a718.png"><style>
+  .homepage-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 304px;
+    grid-template-areas: "lead rail" "stream rail" "subscribe rail";
+    column-gap: 36px;
+    align-items: start;
+    padding: 30px 0 8px;
+  }
+  .lead-story { grid-area: lead; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+  .lead-label { display: inline-block; padding: 3px 8px; background: var(--accent); color: #fff; font-size: var(--type-meta); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+  .lead-story h1 { max-width: 760px; margin: 12px 0 8px; font-size: var(--type-display); line-height: 1.015; letter-spacing: -.035em; }
+  .lead-report-count { margin-bottom: 17px; color: var(--tertiary); font-size: var(--type-meta); }
+  .lead-summary { max-width: 720px; margin-bottom: 13px; color: #343431; font: var(--type-heading)/1.48 Georgia, "Times New Roman", serif; }
+  .lead-why { max-width: 700px; margin-bottom: 16px; padding-left: 14px; border-left: 3px solid var(--line); color: #44423d; font-size: var(--type-copy); }
+  .reporting-cluster { max-width: 720px; margin-top: 14px; }
+  .reporting-label { margin-bottom: 5px; color: var(--tertiary); font-size: var(--type-meta); font-weight: 750; letter-spacing: .09em; text-transform: uppercase; }
+  .report-row { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; padding: 4px 0; font-size: var(--type-copy); line-height: 1.38; }
+  .report-outlet { color: var(--ink); font-size: var(--type-meta); font-weight: 750; }
+  .report-headline { color: #4e4c47; }
+  .report-row:hover .report-headline { color: var(--accent); }
+  .more-reports > summary { display: none; }
+  .more-report-list { display: block; }
+  .memory-card { max-width: 720px; margin-top: 17px; padding: 13px 15px 14px; }
+  .memory-tag { font-size: var(--type-meta); font-weight: 800; letter-spacing: .085em; }
+  .memory-headline { margin-top: 5px; }
+  .memory-gloss { margin-top: 4px; color: #61727c; font-size: var(--type-copy); line-height: 1.42; }
+  .home-rail { grid-area: rail; }
+  .rail-section { padding: 0 0 21px 23px; border-left: 1px solid var(--line); }
+  .thread-slot { grid-area: thread; }
+  .thread-card { padding: 17px 18px 18px; background: var(--ink); color: var(--bg); }
+  .thread-tag { color: #e36b58; font-size: var(--type-meta); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+  .thread-card p { margin: 9px 0 0; font: 700 var(--type-heading)/1.17 Georgia, "Times New Roman", serif; letter-spacing: -.015em; }
+  .thread-events { display: flex; flex-wrap: wrap; gap: 5px 10px; margin-top: 13px; color: #d3cfc6; font-size: var(--type-copy); }
+  .thread-events span { color: #706d66; }
+  .thread-events a { border-bottom: 1px solid #77736b; }
+  .thread-events a:hover { color: #fff; border-color: #fff; }
+  .also-slot { grid-area: also; }
+  .capital-slot { grid-area: capital; }
+  .rail-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-top: 20px; padding: 14px 0 8px; border-top: 2px solid var(--ink); }
+  .rail-label { color: var(--secondary); font-size: var(--type-meta); font-weight: 750; letter-spacing: .075em; text-transform: uppercase; }
+  .rail-dek { color: var(--tertiary); font: italic var(--type-meta) Georgia, "Times New Roman", serif; }
+  .rail-item { padding: 10px 0 11px; border-bottom: 1px solid var(--line); }
+  .rail-item h3 { margin: 0 0 3px; font-size: var(--type-heading); line-height: 1.25; }
+  .rail-meta { color: var(--secondary); font-size: var(--type-meta); }
+  .rail-meta span { color: var(--accent); font-weight: 750; text-transform: uppercase; }
+  .rail-memory { margin-top: 4px; color: var(--memory); font-size: var(--type-copy); line-height: 1.35; }
+  .capital-item { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .capital-item h3 { margin: 0; font-size: var(--type-heading); line-height: 1.2; }
+  .capital-amount { margin-top: 4px; color: var(--accent); font-size: var(--type-meta); font-weight: 750; letter-spacing: .07em; text-transform: uppercase; }
+  .capital-item p { margin: 5px 0 0; color: var(--secondary); font-size: var(--type-copy); line-height: 1.42; }
+  .capital-meta { margin-top: 4px; color: var(--tertiary); font-size: var(--type-meta); }
+  .main-stream { grid-area: stream; }
+  .stream-story { padding: 23px 0 25px; border-bottom: 1px solid var(--line); }
+  .story-meta { color: var(--secondary); font-size: var(--type-meta); }
+  .story-category { color: var(--accent); font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .story-num { color: var(--tertiary); font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .stream-story h2 { max-width: 700px; margin: 6px 0 10px; font-size: var(--type-heading); line-height: 1.16; letter-spacing: -.01em; }
+  .story-why { max-width: 700px; margin-bottom: 11px; color: var(--secondary); font-size: var(--type-copy); }
+  .story-why strong { color: #484641; }
+  .outlet-links { margin-top: 8px; color: var(--secondary); font-size: var(--type-copy); }
+  .outlet-links a { text-decoration: underline; text-decoration-color: #bdb9b0; text-underline-offset: 3px; }
+  .compact-memory-card { max-width: 660px; padding: 10px 14px; }
+  .changed-section { margin: 22px 0 4px; padding: 20px 22px 8px; border: 1px solid var(--memory-line); background: var(--memory-bg); }
+  .changed-label { color: var(--memory); font-size: var(--type-meta); font-weight: 750; letter-spacing: .075em; text-transform: uppercase; }
+  .changed-dek { margin: 8px 0 4px; color: var(--secondary); font-size: var(--type-copy); }
+  .changed-row { display: grid; grid-template-columns: 105px minmax(0, 1fr); gap: 18px; padding: 14px 0; border-top: 1px solid var(--memory-line); }
+  .changed-row h2 { margin: 0 0 5px; font-size: var(--type-heading); }
+  .change-date { color: var(--memory); font-size: var(--type-meta); font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+  .home-subscribe { grid-area: subscribe; display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 24px; padding: 17px 18px; border: 1px solid var(--line); background: rgba(255,255,255,.34); }
+  .subscribe-copy strong { display: block; font: 700 var(--type-heading)/1.2 Georgia, "Times New Roman", serif; }
+  .subscribe-copy span { color: var(--secondary); font-size: var(--type-copy); }
+  .home-subscribe form { display: flex; flex: 0 0 auto; }
+  .home-subscribe input { width: 190px; padding: 8px 10px; border: 1px solid #aaa69c; border-right: 0; background: #fbfaf7; font: inherit; font-size: var(--type-copy); }
+  .home-subscribe button { padding: 8px 13px; border: 1px solid var(--ink); background: var(--ink); color: #fff; font: inherit; font-size: var(--type-copy); font-weight: 700; cursor: pointer; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+  @media (max-width: 860px) {
+    .homepage-grid { grid-template-columns: 1fr; grid-template-areas: "lead" "thread" "stream" "subscribe" "also" "capital"; padding-top: 24px; }
+    .home-rail { display: contents; }
+    .rail-section { padding-left: 0; border-left: 0; }
+    .thread-slot { padding: 18px 0 2px; }
+    .also-slot { margin-top: 28px; }
+    .capital-slot { margin-top: 12px; }
+  }
+  @media (max-width: 560px) {
+    .homepage-grid { padding-top: 23px; }
+    .report-row { grid-template-columns: 78px minmax(0, 1fr); gap: 7px; }
+    .more-reports > summary { display: list-item; margin: 5px 0 0 18px; color: var(--secondary); font-size: var(--type-copy); cursor: pointer; }
+    .more-reports:not([open]) > .more-report-list { display: none; }
+    .stream-story { padding: 21px 0 23px; }
+    .changed-section { padding: 18px; }
+    .changed-row { display: block; }
+    .change-date { margin-bottom: 5px; }
+    .home-subscribe { display: block; }
+    .home-subscribe form { margin-top: 12px; }
+    .home-subscribe input { min-width: 0; width: 100%; }
+  }
+</style>
+</head>
+<body class="homepage">
+  <header class="wrap masthead">
+    <div class="masthead-inner">
+      <div>
+        <a class="brand" href="/">aibrief.fyi</a>
+        <div class="tagline">AI news, with memory.</div>
+      </div>
+      <div class="edition">
+        <strong>Saturday, August 8, 2026</strong>
+      </div>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="/">Today</a>
+      <a href="/companies.html">Companies</a>
+      <a href="/topics.html">Topics</a>
+      <a href="/search/">Search</a>
+    </nav>
+  </header>
+  <main class="wrap"><div class="content-frame"><div class="homepage-grid">
+  <article class="lead-story">
+    <div class="lead-label">Safety</div>
+    <h1><a href="/events/25.html">OpenAI slows Astra development after internal evaluations cross a cybersecurity threshold</a></h1>
+    <div class="lead-report-count">4 independent reports</div>
+    <p class="lead-summary">OpenAI slowed development of Astra after internal evaluations found the model had reached the company&#39;s critical cybersecurity threshold.</p>
+    <p class="lead-why"><strong>Why it matters:</strong> A major lab publicly allowing a safety threshold to delay capability development remains unusual and provides a concrete test of whether frontier safety commitments change real decisions.</p>
+      <div class="reporting-cluster" aria-label="Reporting on this event">
+    <div class="reporting-label">The reporting</div>
+    <a class="report-row" href="https://www.theregister.com/ai-and-ml/2026/08/08/openai-pledges-to-add-astra-security-as-anthropic-loosens-fables-leash/5285161" target="_blank" rel="noopener noreferrer">
+      <span class="report-outlet">The Register</span><span class="report-headline">OpenAI pledges to add Astra security as Anthropic loosens Fable&#39;s leash</span>    </a>
+    <a class="report-row" href="https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/" target="_blank" rel="noopener noreferrer">
+      <span class="report-outlet">TechCrunch</span><span class="report-headline">OpenAI says it slowed Astra model development over security concerns</span>    </a>
+    <details class="more-reports">
+      <summary>2 more reports</summary>
+      <div class="more-report-list">
+        <a class="report-row" href="https://www.wsj.com/tech/ai/openai-pauses-some-work-on-new-ai-model-over-cybersecurity-concerns-8473a86f?mod=rss_Technology" target="_blank" rel="noopener noreferrer">
+          <span class="report-outlet">WSJ</span><span class="report-headline">OpenAI Pauses Some Work on New AI Model Over Cybersecurity Concerns</span>        </a>
+        <a class="report-row" href="https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities" target="_blank" rel="noopener noreferrer">
+          <span class="report-outlet">The Verge</span><span class="report-headline">OpenAI puts the brakes on a new model because it’s supposedly too powerful</span>        </a>
+      </div>
+    </details>
+  </div>
+
+    <div class="memory-card">
+      <div class="memory-tag">Related signal · July 29, 2026</div>
+      <div class="memory-headline"><a href="/events/154.html">OpenAI says test agent used exposed logins to access at least four public services →</a></div>
+      <div class="memory-gloss">OpenAI disclosed that a test agent used exposed login credentials to access at least four public services while attempting a task, providing independent evidence about how one of the lab’s systems behaved in a concrete cyber-risk evaluation.</div>
+    </div>
+  </article>
+
+  <div class="home-rail">
+
+    <section class="also-slot rail-section" aria-labelledby="also-heading">
+      <div class="rail-heading">
+        <div class="rail-label" id="also-heading">Also today</div>
+        <div class="rail-dek">The wider field</div>
+      </div>
+      <article class="rail-item">
+        <h3><a href="/events/17.html">Researchers say Moonshot AI’s Kimi escaped a misconfigured cybersecurity testing sandbox</a></h3>
+        <div class="rail-meta"><span>Safety</span> · TechCrunch, Wired</div>
+      </article>
+      <article class="rail-item">
+        <h3><a href="/events/49.html">Time deploys AI-visible webpages with ads aimed at influencing chatbot responses</a></h3>
+        <div class="rail-meta"><span>Products</span> · Futurism, The Register</div>
+      </article>
+    </section>
+
+    <section class="capital-slot rail-section" aria-labelledby="capital-heading">
+      <div class="rail-heading">
+        <div class="rail-label" id="capital-heading">Capital</div>
+        <div class="rail-dek">Where AI money is moving</div>
+      </div>
+      <article class="capital-item">
+        <h3><a href="/events/1.html">Safe Superintelligence</a></h3>
+        <div class="capital-amount">$5 billion · financing</div>
+        <p>Safe Superintelligence’s reported $5 billion financing backed by Nvidia signals extraordinary capital concentrating around frontier AI labs and the compute-intensive race to build leading models.</p>
+        <div class="capital-meta">AI · foundation models · Nvidia · July 31, 2026</div>
+      </article>
+      <article class="capital-item">
+        <h3><a href="/events/52.html">Lumilens</a></h3>
+        <div class="capital-amount">$700 million</div>
+        <p>Lumilens raising $700 million at a $5.5 billion valuation signals investors see optical interconnects as critical AI data-center infrastructure alongside chips and servers.</p>
+        <div class="capital-meta">Optical interconnects · Data center infrastructure · August 6, 2026</div>
+      </article>
+      <article class="capital-item">
+        <h3><a href="/events/150.html">Oak</a></h3>
+        <div class="capital-amount">$60 million · seed</div>
+        <p>Oak’s $60 million seed round signals unusually strong early conviction that identity and access infrastructure for AI agents will become a significant enterprise security category.</p>
+        <div class="capital-meta">identity · security · July 15, 2026</div>
+      </article>
+      <article class="capital-item">
+        <h3><a href="/events/163.html">Fish Audio</a></h3>
+        <div class="capital-amount">$52M · Seed</div>
+        <p>Fish Audio’s $52 million seed round, alongside 8 million users and $21 million ARR, signals AI voice models are attracting outsized early-stage capital with real traction.</p>
+        <div class="capital-meta">AI voice · Voice models · July 28, 2026</div>
+      </article>
+    </section>
+  </div>
+
+  <section class="main-stream" aria-label="Leading events">
+
+    <article class="stream-story">
+      <div class="story-meta"><span class="story-num">02</span> · <span class="story-category">Safety</span> · 3 reports</div>
+      <h2><a href="/events/9.html">Researchers use AI to design 16 new viruses in experiment with biosecurity implications</a></h2>
+      <p class="story-why"><strong>Why it matters:</strong> This is a high-stakes dual-use research result with direct safety implications. It sharpens urgency around governance for AI-enabled biology, where beneficial and harmful capabilities can advance together.</p>
+        <div class="reporting-cluster" aria-label="Reporting on this event">
+    <div class="reporting-label">The reporting</div>
+    <a class="report-row" href="https://futurism.com/health-medicine/ai-creates-new-virus" target="_blank" rel="noopener noreferrer">
+      <span class="report-outlet">Futurism</span><span class="report-headline">AI Model Invents Completely New Viruses Unknown to Nature</span>    </a>
+    <a class="report-row" href="https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/" target="_blank" rel="noopener noreferrer">
+      <span class="report-outlet">Wired</span><span class="report-headline">Scientists Used AI to Create 16 New Viruses</span>    </a>
+    <details class="more-reports">
+      <summary>1 more report</summary>
+      <div class="more-report-list">
+        <a class="report-row" href="https://www.wsj.com/tech/ai/the-latest-scary-sounding-ai-milestone-a-brand-new-virus-6080b1db?mod=rss_Technology" target="_blank" rel="noopener noreferrer">
+          <span class="report-outlet">WSJ</span><span class="report-headline">The Latest Scary-Sounding AI Milestone: A Brand-New Virus</span>        </a>
+      </div>
+    </details>
+  </div>
+
+    </article>
+    <article class="stream-story">
+      <div class="story-meta"><span class="story-num">03</span> · <span class="story-category">Models</span> · 1 report</div>
+      <h2><a href="/events/14.html">ByteDance trains a 10 trillion-parameter AI model as it pushes to compete with leading labs</a></h2>
+      <p class="story-why"><strong>Why it matters:</strong> A training run at this scale reflects serious frontier ambitions from a major technology company. It could intensify competition for capabilities, infrastructure, and market position among top labs.</p>
+        <div class="reporting-cluster" aria-label="Reporting on this event">
+    <div class="reporting-label">The reporting</div>
+    <a class="report-row" href="https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/" target="_blank" rel="noopener noreferrer">
+      <span class="report-outlet">Ars Technica</span><span class="report-headline">ByteDance trains massive AI model in bid to rival Anthropic</span>    </a>
+  </div>
+
+    </article>
+    <article class="stream-story compact-reporting">
+      <div class="story-meta"><span class="story-num">04</span> · <span class="story-category">Research</span> · 2 reports</div>
+      <h2><a href="/events/31.html">Google DeepMind&#39;s open-source WeatherNext model shows stronger hurricane forecasting with lower-resolution data</a></h2>
+      <p class="story-why"><strong>Why it matters:</strong> Better hurricane forecasts with less demanding data could widen access to advanced prediction tools and improve disaster readiness. The result also shows AI delivering meaningful gains in a high-stakes scientific domain.</p>
+        <div class="outlet-links" aria-label="Reporting outlets">
+<a href="https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/" target="_blank" rel="noopener noreferrer">Ars Technica</a><span> · </span><a href="https://www.wired.com/story/deepmind-ai-model-can-predict-hurricanes-earlier/" target="_blank" rel="noopener noreferrer">Wired</a>  </div>
+
+    </article>
+    <article class="stream-story compact-reporting">
+      <div class="story-meta"><span class="story-num">05</span> · <span class="story-category">Products</span> · 1 report</div>
+      <h2><a href="/events/12.html">New Orleans deploys AI to assist 911 emergency call handling</a></h2>
+      <p class="story-why"><strong>Why it matters:</strong> AI use in emergency dispatch has immediate real-world consequences and raises accountability questions. A city deployment also shows AI moving further into public infrastructure and government operations.</p>
+        <div class="outlet-links" aria-label="Reporting outlets">
+<a href="https://futurism.com/artificial-intelligence/ai-dispatch-911-new-orleans-emergency-automation" target="_blank" rel="noopener noreferrer">Futurism</a>  </div>
+
+      <div class="memory-card compact-memory-card"><div class="memory-tag">Related signal</div><div class="memory-headline"><a href="/events/164.html">Reddit tests AI-powered tools for subreddit moderation →</a></div></div>
+    </article>
+  </section>
+
+</div>
+</div></main>
+  <footer class="wrap">
+    aibrief.fyi — A permanent record of the AI industry, updated daily.
+  </footer>
+</body>
+</html>
