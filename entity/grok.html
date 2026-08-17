@@ -4,7 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="The important AI developments today, connected to the events that came before them.">
+  <meta name="theme-color" content="#171717">
   <title>Grok — aibrief.fyi</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <script data-goatcounter="https://fyibriefai.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   <style>
     :root {
@@ -40,7 +47,8 @@
     .homepage .content-frame { max-width: none; }
     .masthead { padding-top: 28px; }
     .masthead-inner { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px 24px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
-    .brand { font: 700 var(--type-display)/1 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+    .brand { display: inline-flex; align-items: center; gap: .26em; font: 700 var(--type-display)/1 Georgia, "Times New Roman", serif; letter-spacing: -.04em; }
+    .brand-mark { width: .9em; height: .9em; flex: 0 0 auto; }
     .tagline { margin-top: 5px; color: var(--secondary); font-size: var(--type-meta); letter-spacing: .04em; }
     .edition { text-align: right; color: var(--secondary); font-size: var(--type-meta); line-height: 1.6; }
     .edition strong { display: block; color: var(--ink); font-weight: 600; }
@@ -100,7 +108,7 @@
   <header class="wrap masthead">
     <div class="masthead-inner">
       <div>
-        <a class="brand" href="/">aibrief.fyi</a>
+        <a class="brand" href="/" aria-label="aibrief.fyi home"><img class="brand-mark" src="/favicon.svg" width="44" height="44" alt="" aria-hidden="true"><span>aibrief.fyi</span></a>
         <div class="tagline">AI news, with memory.</div>
       </div>
       <div class="edition">

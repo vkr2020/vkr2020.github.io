@@ -1,0 +1,21 @@
+{
+  "name": "aibrief.fyi",
+  "short_name": "AI Brief",
+  "description": "AI news, with memory.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f2f1ed",
+  "theme_color": "#171717",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
