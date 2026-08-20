@@ -40,22 +40,25 @@
   <url><loc>https://aibrief.fyi/entity/claude-code.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google-deepmind.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/apple.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/glm-5-2.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/spacex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/xai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/z-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/andreessen-horowitz.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/codex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/fable.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/github.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/glm-5-2.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/moonshot-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/softbank.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/spacex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zhipu.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/alibaba.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/alphabet.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/aws.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/broadcom.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/bytedance.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/claude-opus-4-8.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cloudflare.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/cognition.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cursor.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek-v4-pro.html</loc></url>
@@ -69,6 +72,7 @@
   <url><loc>https://aibrief.fyi/entity/instagram.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/kodiak-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mark-zuckerberg.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/meta-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mythos.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/noam-shazeer.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/opus-4-8.html</loc></url>
@@ -130,7 +134,6 @@
   <url><loc>https://aibrief.fyi/entity/bloomberg-beta.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/brad-lightcap.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/braintrust.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/broadcom.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/businessnext.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/california-department-of-motor-vehicles.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cathay-innovation.html</loc></url>
@@ -145,13 +148,12 @@
   <url><loc>https://aibrief.fyi/entity/cisa.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/citi-ventures.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/claude-cowork.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/claude-managed-agents.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/claude-opus.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/claude-opus-4-8.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/claude-opus-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/claude-sonnet-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/clearjet.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cody-williams.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/cognition.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/comfyui.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/commonwealth-fusion-systems.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/composio.html</loc></url>
@@ -181,6 +183,7 @@
   <url><loc>https://aibrief.fyi/entity/dell-technologies-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/demis-hassabis.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/denise-dresser.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/devrev-enterprise-bench.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/discovered-materials.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/disney.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/dynamic-workflows.html</loc></url>
@@ -193,6 +196,7 @@
   <url><loc>https://aibrief.fyi/entity/eney.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/equal-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/etched.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/european-central-bank.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/european-scaleup-fund.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/european-union.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/exaforce.html</loc></url>
@@ -225,10 +229,12 @@
   <url><loc>https://aibrief.fyi/entity/glm-5-3.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/glow.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/goldman-sachs.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/google-ai-pro.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google-antigravity.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google-cloud.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google-gemini.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google-health.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/google-search.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/googlebook.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gpt.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gpt-5-5.html</loc></url>
@@ -295,15 +301,17 @@
   <url><loc>https://aibrief.fyi/entity/ltx.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ltx-2-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/lumilens.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/mac.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/macos.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/macpaw.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mark-gurman.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/marvell.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/maschinenfabrik-reinhausen.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/medasin.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/medly-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/menlo-ventures.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/merck.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mesh.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/meta-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mico.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/microsoft-365-copilot.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/microsoft-copilot.html</loc></url>
@@ -339,6 +347,7 @@
   <url><loc>https://aibrief.fyi/entity/openai-responses-api.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/openclaw.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/openrouter.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/operation-blue-skies.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/opus-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/origin.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/palmyra-x6.html</loc></url>
@@ -379,6 +388,7 @@
   <url><loc>https://aibrief.fyi/entity/sb-energy.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/schizophrenia.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/scott-bessent.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/scott-wu.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/security-hub-extended.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sequoia-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/servicenow.html</loc></url>
@@ -397,6 +407,7 @@
   <url><loc>https://aibrief.fyi/entity/snowflake-ventures.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/socket.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sonauto.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/spirit-airlines.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sports-illustrated.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/spotify.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/stackai.html</loc></url>
@@ -422,9 +433,13 @@
   <url><loc>https://aibrief.fyi/entity/toby-neugebauer.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/touring-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/treblo.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/trueforge.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/truefoundry.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/trusted-access-for-cyber.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/trusted-contact.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/twitch.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/u-s-food-and-drug-administration.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/uk-government.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ukraine.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ultrafast.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/university-college-london.html</loc></url>
@@ -451,6 +466,20 @@
   <url><loc>https://aibrief.fyi/entity/zeev-farbman.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zelda-williams.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zoom.html</loc></url>
+  <url><loc>https://aibrief.fyi/events/truefoundry-open-sources-trueforge-agent-harness-and-touts-lower-task.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</loc><lastmod>2026-08-16</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/openai-introduces-stronger-enterprise-data-privacy-protections.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/spirit-flight-attendants-challenge-reported-google-bid-for-airline-data-over.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/european-central-bank-warns-ai-driven-market-exuberance-could-amplify-a-broader.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/google-reportedly-weighs-marvell-against-broadcom-for-ai-chip-supply-as-marvell.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/google-offers-college-students-a-free-year-of-its-ai-pro-plan.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/google-adds-ai-study-tools-across-search-and-gemini.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/researchers-say-openai-revoked-access-for-some-participants-in-its-trusted.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/meta-launches-a-dedicated-meta-ai-desktop-app-for-mac.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/openai-says-it-temporarily-slowed-some-ai-development-work-to-tighten-security.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/google-joins-uk-led-flight-tests-using-ai-to-reduce-contrail-formation.html</loc><lastmod>2026-08-19</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://aibrief.fyi/events/wired-reconstructs-flock-safety-s-newer-police-ai-investigation-tool-already-in.html</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://aibrief.fyi/events/medly-ai-raises-8-million-seed-round-for-ai-exam-prep-tutoring.html</loc><lastmod>2026-08-19</lastmod></url>
   <url><loc>https://aibrief.fyi/events/aisel-health-raises-1-7-million-pre-seed-to-build-ai-software-for-psychiatry.html</loc><lastmod>2026-08-19</lastmod></url>
@@ -475,7 +504,6 @@
   <url><loc>https://aibrief.fyi/events/reddit-tests-ai-generated-audio-and-video-summaries-for-text-posts.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/relay-shuts-down-as-much-of-its-team-joins-google-chrome.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/rogue-studios-launches-an-ai-generated-adult-film-platform.html</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</loc><lastmod>2026-08-16</lastmod></url>
   <url><loc>https://aibrief.fyi/events/higgsfield-raises-400-million-series-b-at-a-5-4-billion-valuation.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/report-alleges-amazon-destroyed-rare-books-to-obtain-ai-training-data.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/siemens-and-maschinenfabrik-reinhausen-unveil-800v-dc-power-system-for-ai.html</loc><lastmod>2026-08-17</lastmod></url>
@@ -485,7 +513,6 @@
   <url><loc>https://aibrief.fyi/events/openai-adds-computer-history-to-the-chatgpt-macos-app.html</loc><lastmod>2026-08-16</lastmod></url>
   <url><loc>https://aibrief.fyi/events/xpander-ai-makes-its-enterprise-ai-agent-control-plane-platform-generally.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/openai-reportedly-finalizes-lease-for-major-ohio-data-center-backed-by-nvidia.html</loc><lastmod>2026-08-17</lastmod></url>
-  <url><loc>https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</loc><lastmod>2026-08-11</lastmod></url>
   <url><loc>https://aibrief.fyi/events/openai-reportedly-disbanded-its-preparedness-team.html</loc><lastmod>2026-08-16</lastmod></url>
   <url><loc>https://aibrief.fyi/events/microsoft-says-exchange-server-update-is-delayed-amid-ai-related-bug-backlog.html</loc><lastmod>2026-08-17</lastmod></url>
   <url><loc>https://aibrief.fyi/events/deepseek-raises-prices-for-v4-flash-and-pro-as-third-party-tests-show-weaker.html</loc><lastmod>2026-08-16</lastmod></url>

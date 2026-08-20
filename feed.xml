@@ -5,8 +5,120 @@
     <link>https://aibrief.fyi/</link>
     <description>AI news, with memory.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Aug 2026 09:50:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 02:01:28 +0000</lastBuildDate>
     <atom:link href="https://aibrief.fyi/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TrueFoundry open-sources TrueForge agent harness and touts lower task-completion costs</title>
+      <link>https://aibrief.fyi/events/truefoundry-open-sources-trueforge-agent-harness-and-touts-lower-task.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/truefoundry-open-sources-trueforge-agent-harness-and-touts-lower-task.html</guid>
+      <pubDate>Wed, 19 Aug 2026 23:50:00 +0000</pubDate>
+      <category>Products</category>
+      <description>TrueFoundry has released TrueForge, an open-source AI agent harness under the MIT License, aimed at giving developers and enterprises more control over agent behavior, tooling, and hosting. The company says benchmark tests on DevRev&#x27;s Enterprise-Bench showed lower task-completion costs than Anthropic&#x27;s Claude Managed Agents, including reported savings when using both GLM-5.2 and Claude Opus 4.8. The article centers on a discrete product release and performance claim from TrueFoundry. Why it matters: The launch reflects growing competition in the agent orchestration layer, where vendors are trying to differentiate on control, openness, and deployment economics rather than only model quality. If the reported savings hold up in broader usage, open harnesses like TrueForge could pressure managed agent platforms on both pricing and flexibility for enterprise deployments.</description>
+    </item>
+    <item>
+      <title>Stripe reportedly agrees to acquire AI gateway startup OpenRouter for more than $7 billion</title>
+      <link>https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</guid>
+      <pubDate>Wed, 19 Aug 2026 23:32:00 +0000</pubDate>
+      <category>Companies</category>
+      <description>TechCrunch reports that Stripe plans to acquire OpenRouter, an AI gateway startup, in a deal valued at more than $7 billion. OpenRouter has positioned itself as infrastructure for routing and managing access to multiple AI models, and the reported purchase would mark a major AI infrastructure acquisition by the payments company. Why it matters: A multibillion-dollar acquisition of OpenRouter by Stripe would signal that AI application infrastructure, especially the software layer that brokers access to models, has become strategically important enough to attract large platform buyers. It would also suggest growing convergence between payments, developer platforms, and the operational stack used to build AI products and agents.</description>
+    </item>
+    <item>
+      <title>OpenAI introduces stronger enterprise data privacy protections</title>
+      <link>https://aibrief.fyi/events/openai-introduces-stronger-enterprise-data-privacy-protections.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/openai-introduces-stronger-enterprise-data-privacy-protections.html</guid>
+      <pubDate>Wed, 19 Aug 2026 22:10:46 +0000</pubDate>
+      <category>Products</category>
+      <description>TechCrunch reports that OpenAI is adding new privacy protections for enterprise customer data as it competes more directly with Anthropic on trust and compliance features. The article frames the move as a product and enterprise-positioning development focused on how customer information is handled rather than on model capability, safety incidents, or litigation. Why it matters: Enterprise AI adoption depends heavily on data-governance assurances, especially for customers sharing sensitive business information with model providers. Stronger privacy controls can influence vendor selection and show that competition among major AI labs is increasingly centered on security, compliance, and operational trust as well as raw model performance.</description>
+    </item>
+    <item>
+      <title>Cognition CEO denies report that SpaceX tried to acquire the startup</title>
+      <link>https://aibrief.fyi/events/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup.html</guid>
+      <pubDate>Wed, 19 Aug 2026 21:51:23 +0000</pubDate>
+      <category>Companies</category>
+      <description>TechCrunch reports that Cognition CEO Scott Wu has denied a report claiming SpaceX tried to acquire the AI coding startup. The article describes the denial as a discrete public response to acquisition speculation involving Cognition and SpaceX. Why it matters: Public denials can clarify the status of rumored M&amp;A activity around prominent AI startups and help separate speculation from confirmed corporate actions. The episode also highlights how strategically valuable AI coding companies have become to large buyers seeking talent, products, or internal engineering leverage.</description>
+    </item>
+    <item>
+      <title>Spirit flight attendants challenge reported Google bid for airline data over privacy concerns</title>
+      <link>https://aibrief.fyi/events/spirit-flight-attendants-challenge-reported-google-bid-for-airline-data-over.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/spirit-flight-attendants-challenge-reported-google-bid-for-airline-data-over.html</guid>
+      <pubDate>Wed, 19 Aug 2026 21:29:00 +0000</pubDate>
+      <category>Policy</category>
+      <description>The Wall Street Journal reports that flight attendants at bankrupt Spirit Airlines are seeking assurances that confidential personal information will be excluded from any sale of the airline’s digital records to Google for AI-related use. The dispute centers on privacy and data-handling terms tied to a reported bid for access to Spirit’s data assets. Why it matters: The case highlights growing scrutiny of how corporate datasets may be repurposed for AI, especially in bankruptcy or asset-sale contexts where workers’ personal information could be transferred without direct consent. It could influence expectations for privacy safeguards, labor protections, and legal limits on AI training or data acquisition from distressed companies.</description>
+    </item>
+    <item>
+      <title>European Central Bank warns AI-driven market exuberance could amplify a broader financial selloff</title>
+      <link>https://aibrief.fyi/events/european-central-bank-warns-ai-driven-market-exuberance-could-amplify-a-broader.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/european-central-bank-warns-ai-driven-market-exuberance-could-amplify-a-broader.html</guid>
+      <pubDate>Wed, 19 Aug 2026 20:25:22 +0000</pubDate>
+      <category>Markets</category>
+      <description>Futurism reports that the European Central Bank warned that a sharp reversal in AI-related market enthusiasm could have wider financial spillover effects beyond the United States. The article frames the warning as a discrete institutional risk signal from a major central bank rather than a new AI product, funding round, or company action. Why it matters: A formal warning from the ECB indicates that AI-linked valuations and concentration risks are being watched as potential macro-financial vulnerabilities, not just a technology-sector story. That matters because central-bank scrutiny can influence investor sentiment, regulatory attention, and how seriously markets treat the possibility of an AI-driven correction.</description>
+    </item>
+    <item>
+      <title>Google reportedly weighs Marvell against Broadcom for AI chip supply as Marvell offers a $12.2 billion stake deal</title>
+      <link>https://aibrief.fyi/events/google-reportedly-weighs-marvell-against-broadcom-for-ai-chip-supply-as-marvell.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/google-reportedly-weighs-marvell-against-broadcom-for-ai-chip-supply-as-marvell.html</guid>
+      <pubDate>Wed, 19 Aug 2026 19:33:15 +0000</pubDate>
+      <category>Chips</category>
+      <description>The Register reports that Google is considering Marvell as an alternative or counterweight to Broadcom in its AI chip supply strategy. The report says Marvell has proposed a $12.2 billion stake transaction to strengthen its position with Google as demand for AI infrastructure and custom silicon continues to rise. Why it matters: Google’s choice of networking and custom-chip partners can influence pricing power, supply resilience, and the competitive balance in AI infrastructure. Any shift in leverage between Broadcom and Marvell would matter well beyond one customer because hyperscaler chip relationships increasingly shape who captures value in the AI buildout.</description>
+    </item>
+    <item>
+      <title>Google offers college students a free year of its AI Pro plan</title>
+      <link>https://aibrief.fyi/events/google-offers-college-students-a-free-year-of-its-ai-pro-plan.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/google-offers-college-students-a-free-year-of-its-ai-pro-plan.html</guid>
+      <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
+      <category>Products</category>
+      <description>Google is offering eligible college students one year of its AI Pro subscription at no cost, according to Engadget. The promotion waives a plan that would normally cost about $200 and appears aimed at increasing student adoption of Google&#x27;s paid consumer AI tools. Why it matters: Student discounts are a common way to seed long-term product usage, but this move is notable because it puts a paid AI subscription directly into a large education segment at no charge. It reflects intensifying competition to make AI assistants habitual tools for studying, writing, and everyday productivity.</description>
+    </item>
+    <item>
+      <title>Google adds AI study tools across Search and Gemini</title>
+      <link>https://aibrief.fyi/events/google-adds-ai-study-tools-across-search-and-gemini.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/google-adds-ai-study-tools-across-search-and-gemini.html</guid>
+      <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
+      <category>Products</category>
+      <description>Google has launched new study-focused AI features across Google Search and Gemini, targeting students and learning use cases. The update expands Google&#x27;s effort to position Gemini as a consumer learning assistant while integrating more AI help directly into its core search product. Why it matters: The launch shows Google pushing AI deeper into everyday education and information workflows rather than limiting Gemini to a standalone chatbot. Tighter integration between Search and Gemini could strengthen Google&#x27;s consumer distribution advantage and intensify competition with OpenAI for student and study use cases.</description>
+    </item>
+    <item>
+      <title>Researchers say OpenAI revoked access for some participants in its Trusted Access for Cyber program</title>
+      <link>https://aibrief.fyi/events/researchers-say-openai-revoked-access-for-some-participants-in-its-trusted.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/researchers-say-openai-revoked-access-for-some-participants-in-its-trusted.html</guid>
+      <pubDate>Wed, 19 Aug 2026 18:46:14 +0000</pubDate>
+      <category>Safety</category>
+      <description>TechCrunch reports that some researchers said OpenAI revoked their access to the company’s limited Trusted Access for Cyber program, which is intended to give selected defenders stronger models for vulnerability research and responsible disclosure. The report frames the change as a dispute over access management within a controlled cybersecurity initiative rather than a new model launch. Why it matters: Access decisions in restricted cyber-defense programs shape who can test advanced dual-use models and how quickly vulnerabilities may be found and disclosed. For OpenAI, complaints from security researchers could affect trust in its safety-governance processes and the credibility of its controlled-release approach for cyber capabilities.</description>
+    </item>
+    <item>
+      <title>Meta launches a dedicated Meta AI desktop app for Mac</title>
+      <link>https://aibrief.fyi/events/meta-launches-a-dedicated-meta-ai-desktop-app-for-mac.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/meta-launches-a-dedicated-meta-ai-desktop-app-for-mac.html</guid>
+      <pubDate>Wed, 19 Aug 2026 17:10:45 +0000</pubDate>
+      <category>Products</category>
+      <description>Meta has launched a standalone Meta AI app for Mac, giving its AI assistant a native macOS client. The app supports sharing a user’s window with Meta AI so it can answer questions, suggest actions, or generate content based on on-screen context, and it also adds dictation support across apps. Why it matters: A native Mac app pushes Meta AI further into desktop productivity workflows, where rivals like OpenAI already offer dedicated clients and system-level features. The screen-sharing and dictation functions make Meta’s assistant more useful beyond social apps and signal a broader push to establish Meta AI as a standalone computing product.</description>
+    </item>
+    <item>
+      <title>OpenAI says it temporarily slowed some AI development work to tighten security and safeguards</title>
+      <link>https://aibrief.fyi/events/openai-says-it-temporarily-slowed-some-ai-development-work-to-tighten-security.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/openai-says-it-temporarily-slowed-some-ai-development-work-to-tighten-security.html</guid>
+      <pubDate>Wed, 19 Aug 2026 17:10:09 +0000</pubDate>
+      <category>Safety</category>
+      <description>OpenAI said it reduced the pace of some AI development efforts, including a reported two-week pause, while it strengthened security measures and safety safeguards. The article frames the move as a deliberate pacing decision amid competitive pressure rather than a product launch, financing round, or personnel change. Why it matters: A voluntary slowdown at a leading frontier lab is notable because it suggests internal security and safety constraints are materially influencing development timelines. That can affect competitive dynamics, shape expectations for responsible scaling, and signal that operational safeguards are becoming a bigger factor in frontier-model progress.</description>
+    </item>
+    <item>
+      <title>Google joins UK-led flight tests using AI to reduce contrail formation</title>
+      <link>https://aibrief.fyi/events/google-joins-uk-led-flight-tests-using-ai-to-reduce-contrail-formation.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/google-joins-uk-led-flight-tests-using-ai-to-reduce-contrail-formation.html</guid>
+      <pubDate>Wed, 19 Aug 2026 16:54:03 +0000</pubDate>
+      <category>Research</category>
+      <description>Google is participating in Operation Blue Skies, a project involving the UK government and airline partners that will use AI-informed analysis to slightly reroute flights in an effort to avoid forming contrails. The tests focus on whether targeted path changes can reduce aviation warming effects without major operational disruption. Why it matters: This is a notable applied-AI climate effort because it moves beyond modeling into real-world operational testing in aviation, where small routing changes could produce measurable emissions-related benefits. It also shows Google using AI in a domain outside core software products, with potential implications for climate tech adoption and transport operations.</description>
+    </item>
+    <item>
+      <title>Coders quickly report ways to evade Anthropic’s Claude text watermarks</title>
+      <link>https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</guid>
+      <pubDate>Wed, 19 Aug 2026 16:44:07 +0000</pubDate>
+      <category>Safety</category>
+      <description>Wired reports that developers began sharing workarounds for Anthropic’s invisible watermarking of Claude-generated text within hours of the feature being announced. The article frames this as an early real-world test of the company’s watermarking approach, which Anthropic said it introduced to help meet European AI transparency requirements. Why it matters: The immediate appearance of evasion methods is a meaningful follow-on to Anthropic’s watermarking rollout because it bears directly on whether AI-text provenance tools will hold up in practice. If simple edits or prompting tactics can strip or defeat detection, the compliance and moderation value of watermarking could be substantially weaker than its announcement suggests.</description>
+    </item>
     <item>
       <title>Wired reconstructs Flock Safety&#x27;s newer police AI investigation tool already in use</title>
       <link>https://aibrief.fyi/events/wired-reconstructs-flock-safety-s-newer-police-ai-investigation-tool-already-in.html</link>
@@ -94,118 +206,6 @@
       <pubDate>Tue, 18 Aug 2026 18:05:00 +0000</pubDate>
       <category>Products</category>
       <description>Harvey has updated its AI legal platform to remember individual users&#x27; preferences and work context, according to The Wall Street Journal. The report says the company is using memory to personalize legal workflows, with broader organizational memory described as a longer-term goal. Why it matters: Persistent memory is becoming a key product differentiator for enterprise AI tools because it can reduce repetitive prompting and make systems more useful in specialized workflows. In legal work, where context, drafting style, and matter history matter, better memory could improve usability and deepen product lock-in if customers trust the system&#x27;s handling of sensitive information.</description>
-    </item>
-    <item>
-      <title>Etched reportedly doubles its valuation to $21 billion after shipping its first AI cluster to Jane Street</title>
-      <link>https://aibrief.fyi/events/etched-reportedly-doubles-its-valuation-to-21-billion-after-shipping-its-first.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/etched-reportedly-doubles-its-valuation-to-21-billion-after-shipping-its-first.html</guid>
-      <pubDate>Tue, 18 Aug 2026 17:21:58 +0000</pubDate>
-      <category>Funding</category>
-      <description>TechCrunch reports that AI chip startup Etched has shipped its first AI cluster system to Jane Street and then raised another financing that values the company at $21 billion. The reported valuation is roughly double the $10.3 billion figure previously associated with the company, indicating both early customer deployment and fresh investor backing. Why it matters: A first shipped cluster to a major trading firm combined with a sharply higher valuation suggests Etched may be moving from investor promise toward real commercial validation in AI infrastructure. If the report holds, it strengthens the case that specialized inference hardware startups can attract both customer demand and large-scale capital despite Nvidia’s entrenched position.</description>
-    </item>
-    <item>
-      <title>OpenAI introduces a teen-focused ChatGPT experience with stronger safeguards</title>
-      <link>https://aibrief.fyi/events/openai-introduces-a-teen-focused-chatgpt-experience-with-stronger-safeguards.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/openai-introduces-a-teen-focused-chatgpt-experience-with-stronger-safeguards.html</guid>
-      <pubDate>Tue, 18 Aug 2026 16:25:00 +0000</pubDate>
-      <category>Products</category>
-      <description>OpenAI has introduced a version of ChatGPT tailored for teenagers, according to The Wall Street Journal. The experience reportedly adds student-oriented features such as homework help and break reminders, alongside stronger guardrails intended to reduce emotional dependence and make the product more age-appropriate. Why it matters: This is a notable consumer AI product and safety development because it reflects OpenAI adapting ChatGPT for younger users rather than offering a one-size-fits-all assistant. Age-specific guardrails, if implemented meaningfully, could influence platform safety norms, education use, and competitive expectations for youth-facing AI products.</description>
-    </item>
-    <item>
-      <title>Snowflake adds dynamic model routing to Cortex AI Gateway</title>
-      <link>https://aibrief.fyi/events/snowflake-adds-dynamic-model-routing-to-cortex-ai-gateway.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/snowflake-adds-dynamic-model-routing-to-cortex-ai-gateway.html</guid>
-      <pubDate>Tue, 18 Aug 2026 13:00:00 +0000</pubDate>
-      <category>Products</category>
-      <description>Snowflake has added dynamic model routing to Cortex AI Gateway, letting enterprise users choose an automatic mode that selects a model for each request based on a quality-cost tradeoff instead of pinning workloads to a single model. The company says the feature can reduce token costs by up to 3x on some workloads, based on internal testing, and positions it as part of a broader push to make enterprise AI agents cheaper and better governed. Why it matters: This is a concrete enterprise AI infrastructure update from a major data platform vendor, and it reflects a wider shift from single-model deployments toward orchestration layers that optimize cost, performance, and governance. If model routing works reliably in production, it could materially improve the economics of large-scale agent deployments and strengthen Snowflake&#x27;s role in enterprise AI stacks.</description>
-    </item>
-    <item>
-      <title>EliseAI is reportedly in talks to raise $300 million at a $3.7 billion valuation</title>
-      <link>https://aibrief.fyi/events/eliseai-is-reportedly-in-talks-to-raise-300-million-at-a-3-7-billion-valuation.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/eliseai-is-reportedly-in-talks-to-raise-300-million-at-a-3-7-billion-valuation.html</guid>
-      <pubDate>Tue, 18 Aug 2026 10:45:59 +0000</pubDate>
-      <category>Funding</category>
-      <description>Tech Funding News reports that EliseAI is in discussions to raise $300 million at a reported $3.7 billion valuation. The article says Andreessen Horowitz and Bessemer Venture Partners are among the investors involved in the talks, indicating a potentially large new financing for the AI property-management software company. Why it matters: A round of this size would be a notable capital-markets signal for applied AI software beyond core model and infrastructure companies. It suggests investors may be willing to fund vertical AI businesses at multibillion-dollar valuations when they show traction in large operational markets such as housing and property management.</description>
-    </item>
-    <item>
-      <title>Groq raises $350 million at a $3.5 billion valuation as it expands its AI cloud business</title>
-      <link>https://aibrief.fyi/events/groq-raises-350-million-at-a-3-5-billion-valuation-as-it-expands-its-ai-cloud.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/groq-raises-350-million-at-a-3-5-billion-valuation-as-it-expands-its-ai-cloud.html</guid>
-      <pubDate>Tue, 18 Aug 2026 10:00:00 +0000</pubDate>
-      <category>Funding</category>
-      <description>TechCrunch reports that Groq has raised $350 million at a $3.5 billion valuation. The financing is tied to the company&#x27;s shift from being framed primarily as an AI chipmaker toward a larger AI cloud and infrastructure business, including expansion of its Nvidia-powered data center footprint. Why it matters: This is a significant capital raise for an AI infrastructure company competing in inference and cloud serving. The round suggests investors are still willing to back alternative AI compute platforms and gives Groq more resources to expand capacity, cloud operations, and market positioning against larger incumbents.</description>
-    </item>
-    <item>
-      <title>QuantumLight closes a $500 million second fund focused on AI startups</title>
-      <link>https://aibrief.fyi/events/quantumlight-closes-a-500-million-second-fund-focused-on-ai-startups.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/quantumlight-closes-a-500-million-second-fund-focused-on-ai-startups.html</guid>
-      <pubDate>Tue, 18 Aug 2026 09:14:48 +0000</pubDate>
-      <category>Funding</category>
-      <description>QuantumLight, the London investment firm co-founded by Nik Storonsky, has closed its second fund at $500 million, according to Tech Funding News. The new vehicle is described as backing AI startups, marking a discrete new venture-fund raise rather than an operating company financing round. Why it matters: A sizable new AI-focused venture fund is a meaningful signal that specialist capital remains available for startup formation and scaling despite a tougher funding environment. It also gives QuantumLight more influence in shaping the next cohort of AI application and infrastructure companies, particularly in Europe and other markets it targets.</description>
-    </item>
-    <item>
-      <title>Z.ai releases open-weight cybersecurity models with dual-use bug-finding capabilities</title>
-      <link>https://aibrief.fyi/events/zhipu-says-new-model-outperforms-openai-and-anthropic-systems-at-bug-finding.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/zhipu-says-new-model-outperforms-openai-and-anthropic-systems-at-bug-finding.html</guid>
-      <pubDate>Tue, 18 Aug 2026 09:00:00 +0000</pubDate>
-      <category>Models</category>
-      <description>Z.ai has released new open-weight AI models aimed at cybersecurity tasks, with reported strength in software vulnerability discovery and related offensive-defensive workflows. Coverage of the launch highlights expert concern that the same capabilities that could help defenders find and fix flaws may also make advanced bug-finding tools more accessible to malicious actors. Why it matters: This is a significant model release because cybersecurity capability is a sensitive dual-use area where open-weight distribution can widen access far beyond a controlled API or enterprise program. If the models are genuinely strong at vulnerability discovery, the launch could influence both competitive dynamics in AI cyber tooling and policy debates over how powerful security-focused models should be released.</description>
-    </item>
-    <item>
-      <title>Gravis Robotics reaches $1 billion valuation with $200 million SoftBank investment</title>
-      <link>https://aibrief.fyi/events/gravis-robotics-reaches-1-billion-valuation-with-200-million-softbank-investment.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/gravis-robotics-reaches-1-billion-valuation-with-200-million-softbank-investment.html</guid>
-      <pubDate>Tue, 18 Aug 2026 07:00:00 +0000</pubDate>
-      <category>Funding</category>
-      <description>Sifted reports that Gravis Robotics has secured a $200 million investment from SoftBank, giving the robotics company a reported $1 billion valuation. The deal points to a discrete late-stage financing event tied to investor interest in robotics and AI-enabled automation. Why it matters: A $200 million investment at a unicorn valuation is a meaningful signal that major capital is still flowing into robotics companies positioned around AI and automation. SoftBank’s involvement also adds strategic credibility and could help Gravis Robotics scale product development, hiring, and commercial deployment.</description>
-    </item>
-    <item>
-      <title>Alibaba releases Qwen3.8-27B as an Apache 2.0 open-weight multimodal model for local coding and reasoning</title>
-      <link>https://aibrief.fyi/events/alibaba-releases-qwen3-8-27b-as-an-apache-2-0-open-weight-multimodal-model-for.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/alibaba-releases-qwen3-8-27b-as-an-apache-2-0-open-weight-multimodal-model-for.html</guid>
-      <pubDate>Tue, 18 Aug 2026 00:06:53 +0000</pubDate>
-      <category>Models</category>
-      <description>Alibaba has released Qwen3.8-27B on Hugging Face under an Apache 2.0 license, making the 27-billion-parameter multimodal model available as downloadable weights rather than only through a cloud API. VentureBeat reports the model supports image and video understanding, a 262,144-token context window, configurable reasoning, and coding and agentic workflows, with quantized versions small enough to run on high-end local hardware. Why it matters: The release adds a notably capable open-weight model to the growing market for local AI deployment, where developers want stronger privacy, lower inference costs, and less dependence on hosted APIs. If Qwen3.8-27B delivers frontier-adjacent coding and reasoning performance on prosumer machines, it could raise competitive pressure on both proprietary model providers and other open-model vendors.</description>
-    </item>
-    <item>
-      <title>Anthropic reportedly reaches $65 billion in annualized revenue</title>
-      <link>https://aibrief.fyi/events/anthropic-reportedly-reaches-65-billion-in-annualized-revenue.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/anthropic-reportedly-reaches-65-billion-in-annualized-revenue.html</guid>
-      <pubDate>Mon, 17 Aug 2026 23:56:26 +0000</pubDate>
-      <category>Companies</category>
-      <description>TechCrunch reports that Anthropic&#x27;s annualized revenue has surged to $65 billion, adding roughly $18 billion in two months. The article presents the figure as a major growth milestone for the AI model developer rather than a new product, funding round, or policy action. Why it matters: A revenue run-rate at this level would signal extraordinary commercial adoption of frontier AI models and services. It would also strengthen the case that leading labs are becoming very large operating businesses, not just capital-intensive research organizations, with implications for competition, infrastructure demand, and investor expectations.</description>
-    </item>
-    <item>
-      <title>Reddit tests AI-generated audio and video summaries for text posts</title>
-      <link>https://aibrief.fyi/events/reddit-tests-ai-generated-audio-and-video-summaries-for-text-posts.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/reddit-tests-ai-generated-audio-and-video-summaries-for-text-posts.html</guid>
-      <pubDate>Mon, 17 Aug 2026 23:46:01 +0000</pubDate>
-      <category>Products</category>
-      <description>Reddit is testing an AI feature that converts some text posts into podcast-style audio and short videos. The experiment uses AI voices to read the original post and selected comments while adding visual highlights, offering users another way to consume discussions on the platform. Why it matters: The test shows Reddit applying generative AI to content formatting and discovery rather than moderation alone. If expanded, it could change how social-platform discussions are packaged, increase passive consumption of forum content, and raise questions about how faithfully AI-produced summaries represent community conversations.</description>
-    </item>
-    <item>
-      <title>Relay shuts down as much of its team joins Google Chrome</title>
-      <link>https://aibrief.fyi/events/relay-shuts-down-as-much-of-its-team-joins-google-chrome.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/relay-shuts-down-as-much-of-its-team-joins-google-chrome.html</guid>
-      <pubDate>Mon, 17 Aug 2026 21:27:05 +0000</pubDate>
-      <category>Companies</category>
-      <description>AI automation startup Relay is shutting down, and much of its staff is joining Google’s Chrome team, according to TechCrunch. Relay founder and CEO Jacob Bank said the team will work on AI features in Chrome, signaling an acqui-hire style move rather than a standalone product launch or financing event. Why it matters: The move suggests Google sees browser-based AI task execution and workflow automation as strategically important product areas for Chrome. It also reflects continued consolidation in AI startups, where talent and product ideas are often absorbed into larger platforms with broader distribution.</description>
-    </item>
-    <item>
-      <title>Rogue Studios launches an AI-generated adult film platform</title>
-      <link>https://aibrief.fyi/events/rogue-studios-launches-an-ai-generated-adult-film-platform.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/rogue-studios-launches-an-ai-generated-adult-film-platform.html</guid>
-      <pubDate>Mon, 17 Aug 2026 20:18:17 +0000</pubDate>
-      <category>Products</category>
-      <description>Wired profiles Rogue Studios, a new company offering an AI system for generating adult cinematic content. The report frames the venture as an attempt to build a more polished, studio-style product in a controversial but commercially established segment of generative media. Why it matters: This is a notable product and company launch in a sensitive consumer AI category that sits at the intersection of content generation, platform policy, and safety governance. Adult-content applications have often pressured AI providers, payment networks, and regulators to clarify rules around moderation, consent, deepfakes, and acceptable commercial use.</description>
-    </item>
-    <item>
-      <title>Stripe reportedly agrees to acquire AI gateway startup OpenRouter for more than $7 billion</title>
-      <link>https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</guid>
-      <pubDate>Mon, 17 Aug 2026 20:10:00 +0000</pubDate>
-      <category>Companies</category>
-      <description>TechCrunch reports that Stripe plans to acquire OpenRouter, an AI gateway startup, in a deal valued at more than $7 billion. OpenRouter has positioned itself as infrastructure for routing and managing access to multiple AI models, and the reported purchase would mark a major AI infrastructure acquisition by the payments company. Why it matters: A multibillion-dollar acquisition of OpenRouter by Stripe would signal that AI application infrastructure, especially the software layer that brokers access to models, has become strategically important enough to attract large platform buyers. It would also suggest growing convergence between payments, developer platforms, and the operational stack used to build AI products and agents.</description>
     </item>
   </channel>
 </rss>
