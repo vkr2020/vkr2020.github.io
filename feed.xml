@@ -5,8 +5,72 @@
     <link>https://aibrief.fyi/</link>
     <description>AI news, with memory.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Aug 2026 01:37:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 01:45:13 +0000</lastBuildDate>
     <atom:link href="https://aibrief.fyi/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Michael Polansky publicly reveals an AI startup using living human skin tissue to discover skincare compounds</title>
+      <link>https://aibrief.fyi/events/michael-polansky-publicly-reveals-an-ai-startup-using-living-human-skin-tissue.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/michael-polansky-publicly-reveals-an-ai-startup-using-living-human-skin-tissue.html</guid>
+      <pubDate>Sat, 22 Aug 2026 01:31:04 +0000</pubDate>
+      <category>Companies</category>
+      <description>TechCrunch reports that Michael Polansky has quietly built an AI-driven startup that keeps living human skin tissue viable for weeks outside the body to test and identify potential skincare compounds. The article frames this as the company&#x27;s public emergence after years of development, combining a biological tissue platform with AI-based discovery workflows. Why it matters: This is a notable AI-biology company formation story because it applies machine learning to a distinctive experimental platform rather than only to software or synthetic datasets. If the approach works at scale, it could expand how AI is used in compound discovery and product development in skincare and adjacent bioscience markets.</description>
+    </item>
+    <item>
+      <title>Nvidia partners with Cloverleaf on AI data center development</title>
+      <link>https://aibrief.fyi/events/nvidia-partners-with-cloverleaf-on-ai-data-center-development.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/nvidia-partners-with-cloverleaf-on-ai-data-center-development.html</guid>
+      <pubDate>Fri, 21 Aug 2026 22:37:38 +0000</pubDate>
+      <category>Companies</category>
+      <description>TechCrunch reports that Nvidia has partnered with data center developer Cloverleaf on AI data center development. The article frames the deal as part of Nvidia&#x27;s broader push to support and participate in the physical infrastructure buildout required for AI computing growth. Why it matters: The partnership is notable because AI competition increasingly depends on access to power, land, and data center capacity in addition to chips. Nvidia&#x27;s involvement beyond selling hardware reinforces how central infrastructure development has become to the economics and scaling of AI systems.</description>
+    </item>
+    <item>
+      <title>Rillet raises $100 million as AI accounting startup reaches unicorn valuation</title>
+      <link>https://aibrief.fyi/events/rillet-raises-100-million-as-ai-accounting-startup-reaches-unicorn-valuation.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/rillet-raises-100-million-as-ai-accounting-startup-reaches-unicorn-valuation.html</guid>
+      <pubDate>Fri, 21 Aug 2026 22:10:01 +0000</pubDate>
+      <category>Funding</category>
+      <description>TechCrunch reports that AI accounting startup Rillet raised a $100 million financing round and reached a valuation above $1 billion. The article says investor interest accelerated after CEO Nicolas Kopp shared growth metrics, with firms including Iconiq Capital and Sequoia Capital participating. Why it matters: A $100 million round that quickly values Rillet at more than $1 billion signals strong investor appetite for vertical AI application companies, not just model and infrastructure providers. It also suggests accounting software is emerging as a meaningful battleground for AI-native enterprise startups.</description>
+    </item>
+    <item>
+      <title>LinkedIn says more than 1 million users have used its AI-generated spam reporting option</title>
+      <link>https://aibrief.fyi/events/linkedin-adds-a-reporting-option-for-posts-suspected-of-being-ai-generated-spam.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/linkedin-adds-a-reporting-option-for-posts-suspected-of-being-ai-generated-spam.html</guid>
+      <pubDate>Fri, 21 Aug 2026 21:25:50 +0000</pubDate>
+      <category>Products</category>
+      <description>LinkedIn says more than 1 million people have clicked its reporting option for posts that &quot;seem like AI slop,&quot; according to a post from chief product officer Hari Srinivasan cited by The Verge. The button, announced on July 30, lets users flag suspected AI-generated spam from a post&#x27;s menu and now has an early usage figure attached to it. Why it matters: The update turns a small moderation feature into a clearer signal that AI-generated spam is a meaningful trust-and-safety problem on mainstream professional platforms. Reported user adoption at this scale suggests demand for AI-specific reporting tools and gives a first data point on how actively users are engaging with them.</description>
+    </item>
+    <item>
+      <title>Advocates file FTC complaint over alleged destruction of books for AI training data</title>
+      <link>https://aibrief.fyi/events/advocates-file-ftc-complaint-over-alleged-destruction-of-books-for-ai-training.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/advocates-file-ftc-complaint-over-alleged-destruction-of-books-for-ai-training.html</guid>
+      <pubDate>Fri, 21 Aug 2026 20:23:12 +0000</pubDate>
+      <category>Policy</category>
+      <description>A group of advocates has filed a complaint with the US Federal Trade Commission alleging that AI companies obtained training data by destroying physical books to digitize them. The complaint turns a reported data-sourcing controversy into a formal regulatory matter focused on consumer protection, copyright-adjacent concerns, and preservation issues. Why it matters: This escalates concerns about AI training-data provenance from reporting and public criticism into a concrete regulatory action. FTC scrutiny could increase legal and reputational risk for companies that rely on contested data-collection practices and may influence norms around digitization, consent, and preservation of physical works.</description>
+    </item>
+    <item>
+      <title>Nvidia research argues agent performance depends heavily on orchestration and fine-tuning, not just the base model</title>
+      <link>https://aibrief.fyi/events/nvidia-research-argues-agent-performance-depends-heavily-on-orchestration-and.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/nvidia-research-argues-agent-performance-depends-heavily-on-orchestration-and.html</guid>
+      <pubDate>Fri, 21 Aug 2026 19:43:39 +0000</pubDate>
+      <category>Research</category>
+      <description>TechCrunch reports on Nvidia research suggesting that AI agents can become more capable and stable through improvements to the surrounding harness, including fine-tuning and task orchestration, even when the underlying model is not best-in-class for the task. The piece frames the result as evidence that agent system design may matter as much as, or more than, incremental gains in the core model. Why it matters: The claim reinforces an important shift in AI deployment from raw model quality toward systems engineering around models, especially for agents that must act reliably over many steps. If the finding holds up broadly, it could lower costs, widen the range of usable models, and redirect competition toward evaluation, routing, memory, and control layers.</description>
+    </item>
+    <item>
+      <title>Nvidia researchers propose linear KV-cache transfer to speed handoffs between AI models</title>
+      <link>https://aibrief.fyi/events/nvidia-researchers-propose-linear-kv-cache-transfer-to-speed-handoffs-between.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/nvidia-researchers-propose-linear-kv-cache-transfer-to-speed-handoffs-between.html</guid>
+      <pubDate>Fri, 21 Aug 2026 16:33:56 +0000</pubDate>
+      <category>Research</category>
+      <description>Nvidia researchers have introduced a cross-model KV-cache transfer method that maps a prefetched cache from one model into another, aiming to avoid recomputing the full conversation when agent systems switch models mid-session. According to the report, the linear mapping technique delivered 2.7x to 25x faster handoffs on compatible model pairs while preserving up to 98% of the target model’s standalone accuracy. Why it matters: The work targets a practical bottleneck in multi-model and agentic AI systems: expensive context reprocessing whenever workloads move between smaller and larger models. If the approach generalizes in production, it could lower inference costs and latency for long-running enterprise workflows and make model routing architectures more economical.</description>
+    </item>
+    <item>
+      <title>Leaked Republican memo points to election backlash over AI data centers in Ohio</title>
+      <link>https://aibrief.fyi/events/leaked-republican-memo-points-to-election-backlash-over-ai-data-centers-in-ohio.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/leaked-republican-memo-points-to-election-backlash-over-ai-data-centers-in-ohio.html</guid>
+      <pubDate>Fri, 21 Aug 2026 15:04:35 +0000</pubDate>
+      <category>Policy</category>
+      <description>Futurism reports on a leaked Republican memo warning that opposition to AI data centers has become a political vulnerability in Ohio. The article frames local backlash over power use, land, and related impacts as an emerging election issue rather than a new corporate infrastructure announcement. Why it matters: Political resistance to AI data center buildouts can shape permitting, power policy, and the pace of infrastructure expansion. If backlash becomes electorally salient, it could raise execution risk for large AI capacity projects and make local acceptance a more important constraint alongside chips and electricity.</description>
+    </item>
     <item>
       <title>Slack launches Slack Code to bring AI coding agents into shared channels</title>
       <link>https://aibrief.fyi/events/slack-launches-slack-code-to-bring-ai-coding-agents-into-shared-channels.html</link>
@@ -142,70 +206,6 @@
       <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
       <category>Products</category>
       <description>Google is offering eligible college students one year of its AI Pro subscription at no cost, according to Engadget. The promotion waives a plan that would normally cost about $200 and appears aimed at increasing student adoption of Google&#x27;s paid consumer AI tools. Why it matters: Student discounts are a common way to seed long-term product usage, but this move is notable because it puts a paid AI subscription directly into a large education segment at no charge. It reflects intensifying competition to make AI assistants habitual tools for studying, writing, and everyday productivity.</description>
-    </item>
-    <item>
-      <title>Google adds AI study tools across Search and Gemini</title>
-      <link>https://aibrief.fyi/events/google-adds-ai-study-tools-across-search-and-gemini.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/google-adds-ai-study-tools-across-search-and-gemini.html</guid>
-      <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
-      <category>Products</category>
-      <description>Google has launched new study-focused AI features across Google Search and Gemini, targeting students and learning use cases. The update expands Google&#x27;s effort to position Gemini as a consumer learning assistant while integrating more AI help directly into its core search product. Why it matters: The launch shows Google pushing AI deeper into everyday education and information workflows rather than limiting Gemini to a standalone chatbot. Tighter integration between Search and Gemini could strengthen Google&#x27;s consumer distribution advantage and intensify competition with OpenAI for student and study use cases.</description>
-    </item>
-    <item>
-      <title>Researchers say OpenAI revoked access for some participants in its Trusted Access for Cyber program</title>
-      <link>https://aibrief.fyi/events/researchers-say-openai-revoked-access-for-some-participants-in-its-trusted.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/researchers-say-openai-revoked-access-for-some-participants-in-its-trusted.html</guid>
-      <pubDate>Wed, 19 Aug 2026 18:46:14 +0000</pubDate>
-      <category>Safety</category>
-      <description>TechCrunch reports that some researchers said OpenAI revoked their access to the company’s limited Trusted Access for Cyber program, which is intended to give selected defenders stronger models for vulnerability research and responsible disclosure. The report frames the change as a dispute over access management within a controlled cybersecurity initiative rather than a new model launch. Why it matters: Access decisions in restricted cyber-defense programs shape who can test advanced dual-use models and how quickly vulnerabilities may be found and disclosed. For OpenAI, complaints from security researchers could affect trust in its safety-governance processes and the credibility of its controlled-release approach for cyber capabilities.</description>
-    </item>
-    <item>
-      <title>Meta launches a dedicated Meta AI desktop app for Mac</title>
-      <link>https://aibrief.fyi/events/meta-launches-a-dedicated-meta-ai-desktop-app-for-mac.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/meta-launches-a-dedicated-meta-ai-desktop-app-for-mac.html</guid>
-      <pubDate>Wed, 19 Aug 2026 17:10:45 +0000</pubDate>
-      <category>Products</category>
-      <description>Meta has launched a standalone Meta AI app for Mac, giving its AI assistant a native macOS client. The app supports sharing a user’s window with Meta AI so it can answer questions, suggest actions, or generate content based on on-screen context, and it also adds dictation support across apps. Why it matters: A native Mac app pushes Meta AI further into desktop productivity workflows, where rivals like OpenAI already offer dedicated clients and system-level features. The screen-sharing and dictation functions make Meta’s assistant more useful beyond social apps and signal a broader push to establish Meta AI as a standalone computing product.</description>
-    </item>
-    <item>
-      <title>Google joins UK-led flight tests using AI to reduce contrail formation</title>
-      <link>https://aibrief.fyi/events/google-joins-uk-led-flight-tests-using-ai-to-reduce-contrail-formation.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/google-joins-uk-led-flight-tests-using-ai-to-reduce-contrail-formation.html</guid>
-      <pubDate>Wed, 19 Aug 2026 16:54:03 +0000</pubDate>
-      <category>Research</category>
-      <description>Google is participating in Operation Blue Skies, a project involving the UK government and airline partners that will use AI-informed analysis to slightly reroute flights in an effort to avoid forming contrails. The tests focus on whether targeted path changes can reduce aviation warming effects without major operational disruption. Why it matters: This is a notable applied-AI climate effort because it moves beyond modeling into real-world operational testing in aviation, where small routing changes could produce measurable emissions-related benefits. It also shows Google using AI in a domain outside core software products, with potential implications for climate tech adoption and transport operations.</description>
-    </item>
-    <item>
-      <title>Coders quickly report ways to evade Anthropic’s Claude text watermarks</title>
-      <link>https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/anthropic-details-claudes-text-watermarking-approach-using-synthid-text.html</guid>
-      <pubDate>Wed, 19 Aug 2026 16:44:07 +0000</pubDate>
-      <category>Safety</category>
-      <description>Wired reports that developers began sharing workarounds for Anthropic’s invisible watermarking of Claude-generated text within hours of the feature being announced. The article frames this as an early real-world test of the company’s watermarking approach, which Anthropic said it introduced to help meet European AI transparency requirements. Why it matters: The immediate appearance of evasion methods is a meaningful follow-on to Anthropic’s watermarking rollout because it bears directly on whether AI-text provenance tools will hold up in practice. If simple edits or prompting tactics can strip or defeat detection, the compliance and moderation value of watermarking could be substantially weaker than its announcement suggests.</description>
-    </item>
-    <item>
-      <title>Wired reconstructs Flock Safety&#x27;s newer police AI investigation tool already in use</title>
-      <link>https://aibrief.fyi/events/wired-reconstructs-flock-safety-s-newer-police-ai-investigation-tool-already-in.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/wired-reconstructs-flock-safety-s-newer-police-ai-investigation-tool-already-in.html</guid>
-      <pubDate>Wed, 19 Aug 2026 09:00:00 +0000</pubDate>
-      <category>Products</category>
-      <description>Wired reports that Flock Safety has developed a more advanced police AI investigation system that goes beyond automatic license plate recognition and is already being used by some law enforcement agencies. The outlet says it reconstructed the tool&#x27;s code to examine how the product works and to assess the scope of its surveillance and investigative capabilities. Why it matters: A reported expansion of Flock Safety&#x27;s police-facing AI tooling would deepen the use of algorithmic surveillance in real-world law enforcement workflows, where errors, misuse, and oversight gaps can have direct civil-liberties consequences. It also shows AI product development moving from narrow detection tasks toward broader investigative assistance in a sensitive public-sector setting.</description>
-    </item>
-    <item>
-      <title>Medly AI raises $8 million seed round for AI exam-prep tutoring</title>
-      <link>https://aibrief.fyi/events/medly-ai-raises-8-million-seed-round-for-ai-exam-prep-tutoring.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/medly-ai-raises-8-million-seed-round-for-ai-exam-prep-tutoring.html</guid>
-      <pubDate>Wed, 19 Aug 2026 08:00:00 +0000</pubDate>
-      <category>Funding</category>
-      <description>Medly AI has raised an $8 million seed round, according to Tech Funding News. The company is building an AI tutor focused on exam preparation, with Felix Capital named as the lead investor. Why it matters: The round signals continued investor interest in consumer and education-focused AI applications beyond enterprise tooling and core infrastructure. It also suggests backers see room for AI tutoring products that target high-frequency, outcome-driven use cases such as test preparation.</description>
-    </item>
-    <item>
-      <title>Aisel Health raises €1.7 million pre-seed to build AI software for psychiatry workflows</title>
-      <link>https://aibrief.fyi/events/aisel-health-raises-1-7-million-pre-seed-to-build-ai-software-for-psychiatry.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/aisel-health-raises-1-7-million-pre-seed-to-build-ai-software-for-psychiatry.html</guid>
-      <pubDate>Wed, 19 Aug 2026 07:00:00 +0000</pubDate>
-      <category>Funding</category>
-      <description>Aisel Health has announced a €1.7 million pre-seed financing round to develop an operating system for psychiatry. The company says its product is aimed at helping clinicians retrieve information from prior sessions and manage documentation and workflow more effectively in mental health care. Why it matters: The raise reflects continued investor interest in vertical AI software for healthcare, particularly tools designed for specialized clinical workflows rather than general-purpose assistants. Psychiatry involves sensitive records, longitudinal context, and heavy documentation demands, making it a notable test case for whether AI products can deliver operational value in regulated care settings.</description>
     </item>
   </channel>
 </rss>

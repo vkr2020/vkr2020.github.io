@@ -85,6 +85,7 @@
   <url><loc>https://aibrief.fyi/entity/safe-superintelligence.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/salesforce.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sam-altman.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/sequoia-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/siri.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/snowflake.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/stripe.html</loc></url>
@@ -161,6 +162,7 @@
   <url><loc>https://aibrief.fyi/entity/claude-opus-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/claude-sonnet-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/clearjet.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/cloverleaf.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cody-williams.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/comfyui.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/commonwealth-fusion-systems.html</loc></url>
@@ -228,6 +230,7 @@
   <url><loc>https://aibrief.fyi/entity/ford.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/franklin.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/frontier-red-team.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/ftc.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gavriel-cohen.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gemini-3-5-flash-lite.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gemini-3-7-flash.html</loc></url>
@@ -261,6 +264,7 @@
   <url><loc>https://aibrief.fyi/entity/guillermo-rauch.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hachette.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/happyrobot.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/hari-srinivasan.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hark.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/harvard-university.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/harvey.html</loc></url>
@@ -269,6 +273,7 @@
   <url><loc>https://aibrief.fyi/entity/higgsfield.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hp.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hunyuan3d-3-0.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/iconiq-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/igor-babuschkin.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ilya-sutskever.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/imperial-college-london.html</loc></url>
@@ -322,6 +327,7 @@
   <url><loc>https://aibrief.fyi/entity/menlo-ventures.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/merck.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mesh.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/michael-polansky.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/mico.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/microsoft-365-copilot.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/microsoft-copilot.html</loc></url>
@@ -345,6 +351,7 @@
   <url><loc>https://aibrief.fyi/entity/netris.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/nextslide.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/nfx.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/nicolas-kopp.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/nik-storonsky.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/norm.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/norwest.html</loc></url>
@@ -355,6 +362,7 @@
   <url><loc>https://aibrief.fyi/entity/oak.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ocean.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/oceans-ventures.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/ohio-republican-party.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ollama.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/openai-codex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/openai-responses-api.html</loc></url>
@@ -388,6 +396,7 @@
   <url><loc>https://aibrief.fyi/entity/relay.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/reliance-industries.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/rick-perry.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/rillet.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/rippling.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/river-ai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/robin-williams.html</loc></url>
@@ -403,7 +412,6 @@
   <url><loc>https://aibrief.fyi/entity/scott-bessent.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/scott-wu.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/security-hub-extended.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/sequoia-capital.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/servicenow.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sglang.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/shai-morag.html</loc></url>
@@ -480,6 +488,14 @@
   <url><loc>https://aibrief.fyi/entity/zeev-farbman.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zelda-williams.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zoom.html</loc></url>
+  <url><loc>https://aibrief.fyi/events/michael-polansky-publicly-reveals-an-ai-startup-using-living-human-skin-tissue.html</loc><lastmod>2026-08-22</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/nvidia-partners-with-cloverleaf-on-ai-data-center-development.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/rillet-raises-100-million-as-ai-accounting-startup-reaches-unicorn-valuation.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/linkedin-adds-a-reporting-option-for-posts-suspected-of-being-ai-generated-spam.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/advocates-file-ftc-complaint-over-alleged-destruction-of-books-for-ai-training.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/nvidia-research-argues-agent-performance-depends-heavily-on-orchestration-and.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/nvidia-researchers-propose-linear-kv-cache-transfer-to-speed-handoffs-between.html</loc><lastmod>2026-08-21</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/leaked-republican-memo-points-to-election-backlash-over-ai-data-centers-in-ohio.html</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://aibrief.fyi/events/slack-launches-slack-code-to-bring-ai-coding-agents-into-shared-channels.html</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://aibrief.fyi/events/openai-adds-an-apple-messages-plug-in-for-chatgpt.html</loc><lastmod>2026-08-20</lastmod></url>
   <url><loc>https://aibrief.fyi/events/google-adds-ai-based-customization-to-the-discover-feed-in-its-mobile-app.html</loc><lastmod>2026-08-20</lastmod></url>
@@ -654,7 +670,6 @@
   <url><loc>https://aibrief.fyi/events/exclaim-robotics-emerges-from-stealth-with-a-4-95-million-seed-round.html</loc><lastmod>2026-08-04</lastmod></url>
   <url><loc>https://aibrief.fyi/events/pwc-reportedly-published-an-ai-report-containing-hallucinated-citations-and.html</loc><lastmod>2026-08-03</lastmod></url>
   <url><loc>https://aibrief.fyi/events/safe-superintelligence-reportedly-lands-5-billion-financing-backed-by-nvidia.html</loc><lastmod>2026-07-31</lastmod></url>
-  <url><loc>https://aibrief.fyi/events/linkedin-adds-a-reporting-option-for-posts-suspected-of-being-ai-generated-spam.html</loc><lastmod>2026-07-30</lastmod></url>
   <url><loc>https://aibrief.fyi/events/chatgpt-appears-to-refuse-prompts-asking-it-to-imitate-living-authors-styles.html</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://aibrief.fyi/events/south-korean-authorities-move-to-cool-ai-driven-stock-speculation-after-market.html</loc><lastmod>2026-07-29</lastmod></url>
   <url><loc>https://aibrief.fyi/events/report-says-amazon-is-cutting-back-parts-of-its-internal-ai-effort-after.html</loc><lastmod>2026-07-29</lastmod></url>
