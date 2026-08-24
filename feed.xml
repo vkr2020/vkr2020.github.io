@@ -5,8 +5,64 @@
     <link>https://aibrief.fyi/</link>
     <description>AI news, with memory.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 01:45:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 01:55:16 +0000</lastBuildDate>
     <atom:link href="https://aibrief.fyi/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Alibaba plans $10.20 billion share placement to fund AI investment</title>
+      <link>https://aibrief.fyi/events/alibaba-plans-10-20-billion-share-placement-to-fund-ai-investment.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/alibaba-plans-10-20-billion-share-placement-to-fund-ai-investment.html</guid>
+      <pubDate>Mon, 24 Aug 2026 01:07:00 +0000</pubDate>
+      <category>Funding</category>
+      <description>The Wall Street Journal reports that Alibaba is pursuing a $10.20 billion share placement as it increases spending on AI. The financing would give the company additional capital to support its AI push amid intensifying competition among major Chinese technology firms. Why it matters: A financing of this size from one of China’s largest technology companies is a significant signal that AI investment is becoming a balance-sheet priority at incumbent platforms, not just startups. It also points to the growing capital intensity of competing in models, cloud infrastructure, and AI-enabled products at scale.</description>
+    </item>
+    <item>
+      <title>Twitch and Amazon face class-action lawsuit over alleged AI training on streamer content</title>
+      <link>https://aibrief.fyi/events/twitch-and-amazon-face-class-action-lawsuit-over-alleged-ai-training-on.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/twitch-and-amazon-face-class-action-lawsuit-over-alleged-ai-training-on.html</guid>
+      <pubDate>Sun, 23 Aug 2026 17:39:26 +0000</pubDate>
+      <category>Policy</category>
+      <description>A proposed class-action lawsuit alleges that Amazon used Twitch streamers&#x27; content to train AI models without obtaining their consent. The suit turns a broader dispute over platform terms and training-data use into a formal legal challenge aimed at Amazon and its Twitch unit. Why it matters: This adds legal risk to a growing fight over whether platforms can use creator-generated content for AI training under existing terms. A court challenge could affect disclosure, consent standards, and data-rights expectations for large consumer platforms building AI systems.</description>
+    </item>
+    <item>
+      <title>Nvidia reportedly commits $6 billion with Poolside to build a U.S.-based open AI ecosystem</title>
+      <link>https://aibrief.fyi/events/nvidia-reportedly-commits-6-billion-with-poolside-to-build-a-u-s-based-open-ai.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/nvidia-reportedly-commits-6-billion-with-poolside-to-build-a-u-s-based-open-ai.html</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <category>Companies</category>
+      <description>The Wall Street Journal reports that Nvidia has reached a sweeping agreement with startup Poolside involving $6 billion to help build a U.S.-based open AI ecosystem. The deal is framed as an effort to create a domestic alternative that could compete with leading Chinese AI players as well as major U.S. AI companies. Why it matters: A multibillion-dollar strategic buildout between Nvidia and Poolside would be a significant sign that competition in AI is expanding beyond model releases into capital-intensive ecosystem formation, including compute, infrastructure, and national positioning. It also suggests Nvidia is taking a more active role in shaping which AI companies and platforms emerge as large-scale alternatives in the U.S.</description>
+    </item>
+    <item>
+      <title>Harvard Business School launches a startup bootcamp with AI avatars of its instructors</title>
+      <link>https://aibrief.fyi/events/harvard-business-school-launches-a-startup-bootcamp-with-ai-avatars-of-its.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/harvard-business-school-launches-a-startup-bootcamp-with-ai-avatars-of-its.html</guid>
+      <pubDate>Sat, 22 Aug 2026 21:46:56 +0000</pubDate>
+      <category>Products</category>
+      <description>Harvard Business School has introduced Foundry, a $699 startup bootcamp that uses AI avatars of instructors to give participants feedback during exercises such as practice pitches and mock board meetings, according to TechCrunch. The program applies generative AI to a structured education setting rather than a general-purpose chatbot experience. Why it matters: The launch shows educational institutions experimenting with AI as a scalable layer for coaching and simulation, not just content generation. If effective, instructor avatars could broaden access to feedback-intensive business training while testing whether branded, institution-backed AI tutors can become viable education products.</description>
+    </item>
+    <item>
+      <title>Inherent unveils Faraday and claims strong results on scientific paper replication</title>
+      <link>https://aibrief.fyi/events/inherent-unveils-faraday-and-claims-strong-results-on-scientific-paper.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/inherent-unveils-faraday-and-claims-strong-results-on-scientific-paper.html</guid>
+      <pubDate>Sat, 22 Aug 2026 19:00:00 +0000</pubDate>
+      <category>Research</category>
+      <description>British AI startup Inherent, founded by DeepMind alumni, has introduced Faraday, an AI agent designed to replicate scientific papers. In coverage by TechCrunch, the company said Faraday outperformed systems from Anthropic and OpenAI on its research-replication task, positioning the product as an AI &quot;teammate&quot; for scientific work. Why it matters: Tools that can reliably reproduce published research could make AI more useful in science by accelerating validation, error-checking, and follow-on experimentation. The significance depends on how credible and transferable Inherent’s evaluation is, but the claim adds to competition around agentic systems for high-value knowledge work rather than general chat.</description>
+    </item>
+    <item>
+      <title>OpenAI urges California to strengthen SB 53 after previously opposing the bill</title>
+      <link>https://aibrief.fyi/events/openai-urges-california-to-strengthen-sb-53-after-previously-opposing-the-bill.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/openai-urges-california-to-strengthen-sb-53-after-previously-opposing-the-bill.html</guid>
+      <pubDate>Sat, 22 Aug 2026 16:30:34 +0000</pubDate>
+      <category>Policy</category>
+      <description>OpenAI said California should strengthen SB 53, an AI safety bill that the company had previously opposed, according to TechCrunch. The reported shift marks a notable change in the company’s public stance on a state-level AI policy proposal and suggests support for tougher safeguards than it backed earlier. Why it matters: OpenAI is one of the most influential AI companies, so a reversal on a prominent state safety bill could affect how lawmakers, other labs, and industry groups approach AI regulation. A large lab publicly backing stronger requirements can reshape policy coalitions and the perceived political viability of stricter AI oversight.</description>
+    </item>
+    <item>
+      <title>Study finds frontier AI labs disclose little about rogue-model containment plans</title>
+      <link>https://aibrief.fyi/events/study-finds-frontier-ai-labs-disclose-little-about-rogue-model-containment-plans.html</link>
+      <guid isPermaLink="true">https://aibrief.fyi/events/study-finds-frontier-ai-labs-disclose-little-about-rogue-model-containment-plans.html</guid>
+      <pubDate>Sat, 22 Aug 2026 16:00:00 +0000</pubDate>
+      <category>Safety</category>
+      <description>A new study reported by TechCrunch says leading AI labs have few publicly documented plans for containing a rogue or misbehaving advanced model. The article frames the finding as a transparency and preparedness concern as AI systems show more unexpected and potentially risky behavior. Why it matters: Publicly documented containment procedures are a core signal of how seriously frontier labs are preparing for low-probability, high-impact failure modes. Even if the study measures disclosure rather than actual internal readiness, it could increase pressure on major labs to publish clearer incident-response and containment frameworks.</description>
+    </item>
     <item>
       <title>Michael Polansky publicly reveals an AI startup using living human skin tissue to discover skincare compounds</title>
       <link>https://aibrief.fyi/events/michael-polansky-publicly-reveals-an-ai-startup-using-living-human-skin-tissue.html</link>
@@ -150,62 +206,6 @@
       <pubDate>Thu, 20 Aug 2026 16:45:00 +0000</pubDate>
       <category>Products</category>
       <description>Microsoft is adding per-process neural processing unit monitoring to Windows Task Manager, giving users a way to view AI-related hardware usage at the process level. The feature extends the long-running Windows utility to surface NPU workload activity alongside other system resource metrics. Why it matters: As AI PCs and on-device inference become more common, visibility into NPU utilization matters for developers, IT teams, and power users trying to understand performance, battery impact, and which applications are using dedicated AI hardware. The update is a modest but concrete sign that Microsoft is adapting core Windows tools for local AI workloads.</description>
-    </item>
-    <item>
-      <title>TrueFoundry open-sources TrueForge agent harness and touts lower task-completion costs</title>
-      <link>https://aibrief.fyi/events/truefoundry-open-sources-trueforge-agent-harness-and-touts-lower-task.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/truefoundry-open-sources-trueforge-agent-harness-and-touts-lower-task.html</guid>
-      <pubDate>Wed, 19 Aug 2026 23:50:00 +0000</pubDate>
-      <category>Products</category>
-      <description>TrueFoundry has released TrueForge, an open-source AI agent harness under the MIT License, aimed at giving developers and enterprises more control over agent behavior, tooling, and hosting. The company says benchmark tests on DevRev&#x27;s Enterprise-Bench showed lower task-completion costs than Anthropic&#x27;s Claude Managed Agents, including reported savings when using both GLM-5.2 and Claude Opus 4.8. The article centers on a discrete product release and performance claim from TrueFoundry. Why it matters: The launch reflects growing competition in the agent orchestration layer, where vendors are trying to differentiate on control, openness, and deployment economics rather than only model quality. If the reported savings hold up in broader usage, open harnesses like TrueForge could pressure managed agent platforms on both pricing and flexibility for enterprise deployments.</description>
-    </item>
-    <item>
-      <title>Stripe reportedly agrees to acquire AI gateway startup OpenRouter for more than $7 billion</title>
-      <link>https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/stripe-reportedly-agrees-to-acquire-ai-gateway-startup-openrouter-for-more-than.html</guid>
-      <pubDate>Wed, 19 Aug 2026 23:32:00 +0000</pubDate>
-      <category>Companies</category>
-      <description>TechCrunch reports that Stripe plans to acquire OpenRouter, an AI gateway startup, in a deal valued at more than $7 billion. OpenRouter has positioned itself as infrastructure for routing and managing access to multiple AI models, and the reported purchase would mark a major AI infrastructure acquisition by the payments company. Why it matters: A multibillion-dollar acquisition of OpenRouter by Stripe would signal that AI application infrastructure, especially the software layer that brokers access to models, has become strategically important enough to attract large platform buyers. It would also suggest growing convergence between payments, developer platforms, and the operational stack used to build AI products and agents.</description>
-    </item>
-    <item>
-      <title>Cognition CEO denies report that SpaceX tried to acquire the startup</title>
-      <link>https://aibrief.fyi/events/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/cognition-ceo-denies-report-that-spacex-tried-to-acquire-the-startup.html</guid>
-      <pubDate>Wed, 19 Aug 2026 21:51:23 +0000</pubDate>
-      <category>Companies</category>
-      <description>TechCrunch reports that Cognition CEO Scott Wu has denied a report claiming SpaceX tried to acquire the AI coding startup. The article describes the denial as a discrete public response to acquisition speculation involving Cognition and SpaceX. Why it matters: Public denials can clarify the status of rumored M&amp;A activity around prominent AI startups and help separate speculation from confirmed corporate actions. The episode also highlights how strategically valuable AI coding companies have become to large buyers seeking talent, products, or internal engineering leverage.</description>
-    </item>
-    <item>
-      <title>Spirit flight attendants challenge reported Google bid for airline data over privacy concerns</title>
-      <link>https://aibrief.fyi/events/spirit-flight-attendants-challenge-reported-google-bid-for-airline-data-over.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/spirit-flight-attendants-challenge-reported-google-bid-for-airline-data-over.html</guid>
-      <pubDate>Wed, 19 Aug 2026 21:29:00 +0000</pubDate>
-      <category>Policy</category>
-      <description>The Wall Street Journal reports that flight attendants at bankrupt Spirit Airlines are seeking assurances that confidential personal information will be excluded from any sale of the airline’s digital records to Google for AI-related use. The dispute centers on privacy and data-handling terms tied to a reported bid for access to Spirit’s data assets. Why it matters: The case highlights growing scrutiny of how corporate datasets may be repurposed for AI, especially in bankruptcy or asset-sale contexts where workers’ personal information could be transferred without direct consent. It could influence expectations for privacy safeguards, labor protections, and legal limits on AI training or data acquisition from distressed companies.</description>
-    </item>
-    <item>
-      <title>European Central Bank warns AI-driven market exuberance could amplify a broader financial selloff</title>
-      <link>https://aibrief.fyi/events/european-central-bank-warns-ai-driven-market-exuberance-could-amplify-a-broader.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/european-central-bank-warns-ai-driven-market-exuberance-could-amplify-a-broader.html</guid>
-      <pubDate>Wed, 19 Aug 2026 20:25:22 +0000</pubDate>
-      <category>Markets</category>
-      <description>Futurism reports that the European Central Bank warned that a sharp reversal in AI-related market enthusiasm could have wider financial spillover effects beyond the United States. The article frames the warning as a discrete institutional risk signal from a major central bank rather than a new AI product, funding round, or company action. Why it matters: A formal warning from the ECB indicates that AI-linked valuations and concentration risks are being watched as potential macro-financial vulnerabilities, not just a technology-sector story. That matters because central-bank scrutiny can influence investor sentiment, regulatory attention, and how seriously markets treat the possibility of an AI-driven correction.</description>
-    </item>
-    <item>
-      <title>Google reportedly weighs Marvell against Broadcom for AI chip supply as Marvell offers a $12.2 billion stake deal</title>
-      <link>https://aibrief.fyi/events/google-reportedly-weighs-marvell-against-broadcom-for-ai-chip-supply-as-marvell.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/google-reportedly-weighs-marvell-against-broadcom-for-ai-chip-supply-as-marvell.html</guid>
-      <pubDate>Wed, 19 Aug 2026 19:33:15 +0000</pubDate>
-      <category>Chips</category>
-      <description>The Register reports that Google is considering Marvell as an alternative or counterweight to Broadcom in its AI chip supply strategy. The report says Marvell has proposed a $12.2 billion stake transaction to strengthen its position with Google as demand for AI infrastructure and custom silicon continues to rise. Why it matters: Google’s choice of networking and custom-chip partners can influence pricing power, supply resilience, and the competitive balance in AI infrastructure. Any shift in leverage between Broadcom and Marvell would matter well beyond one customer because hyperscaler chip relationships increasingly shape who captures value in the AI buildout.</description>
-    </item>
-    <item>
-      <title>Google offers college students a free year of its AI Pro plan</title>
-      <link>https://aibrief.fyi/events/google-offers-college-students-a-free-year-of-its-ai-pro-plan.html</link>
-      <guid isPermaLink="true">https://aibrief.fyi/events/google-offers-college-students-a-free-year-of-its-ai-pro-plan.html</guid>
-      <pubDate>Wed, 19 Aug 2026 19:00:00 +0000</pubDate>
-      <category>Products</category>
-      <description>Google is offering eligible college students one year of its AI Pro subscription at no cost, according to Engadget. The promotion waives a plan that would normally cost about $200 and appears aimed at increasing student adoption of Google&#x27;s paid consumer AI tools. Why it matters: Student discounts are a common way to seed long-term product usage, but this move is notable because it puts a paid AI subscription directly into a large education segment at no charge. It reflects intensifying competition to make AI assistants habitual tools for studying, writing, and everyday productivity.</description>
     </item>
   </channel>
 </rss>

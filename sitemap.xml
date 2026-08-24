@@ -28,8 +28,8 @@
   <url><loc>https://aibrief.fyi/entity/openai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/anthropic.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/google.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/chatgpt.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/nvidia.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/chatgpt.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/meta.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/amazon.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/gemini.html</loc></url>
@@ -44,6 +44,7 @@
   <url><loc>https://aibrief.fyi/entity/spacex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/xai.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/z-ai.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/alibaba.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/andreessen-horowitz.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/codex.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cognition.html</loc></url>
@@ -53,7 +54,6 @@
   <url><loc>https://aibrief.fyi/entity/slack.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/softbank.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zhipu.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/alibaba.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/alphabet.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/aws.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/broadcom.html</loc></url>
@@ -61,6 +61,7 @@
   <url><loc>https://aibrief.fyi/entity/claude-opus-4-8.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cloudflare.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/cursor.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/deepmind.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek-v4-pro.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/donald-trump.html</loc></url>
@@ -92,6 +93,7 @@
   <url><loc>https://aibrief.fyi/entity/suno.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/tencent.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/together-ai.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/twitch.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/vercel.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/a-security.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/a24.html</loc></url>
@@ -185,7 +187,6 @@
   <url><loc>https://aibrief.fyi/entity/david-twizer.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/daybreak.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/dean-ball.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/deepmind.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek-harness.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/deepseek-v4.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/def-con.html</loc></url>
@@ -216,6 +217,7 @@
   <url><loc>https://aibrief.fyi/entity/fable-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/facebook.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/fairground.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/faraday.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/fbi.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/feedly.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/felix-capital.html</loc></url>
@@ -228,6 +230,7 @@
   <url><loc>https://aibrief.fyi/entity/florida-state-university.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/flow.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ford.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/foundry.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/franklin.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/frontier-red-team.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ftc.html</loc></url>
@@ -266,6 +269,7 @@
   <url><loc>https://aibrief.fyi/entity/happyrobot.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hari-srinivasan.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/hark.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/harvard-business-school.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/harvard-university.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/harvey.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/have-i-been-pwned.html</loc></url>
@@ -279,6 +283,7 @@
   <url><loc>https://aibrief.fyi/entity/imperial-college-london.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/index-ventures.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/infinity.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/inherent.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/jack-dorsey.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/jack-parker-holder.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/jacob-bank.html</loc></url>
@@ -380,6 +385,7 @@
   <url><loc>https://aibrief.fyi/entity/pixel-tag.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/pixel-watch-5.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/pocket.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/poolside.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/preparedness-framework.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/prime-intellect.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/principal-vc.html</loc></url>
@@ -407,6 +413,7 @@
   <url><loc>https://aibrief.fyi/entity/s-capital-vc.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sandstone.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sap.html</loc></url>
+  <url><loc>https://aibrief.fyi/entity/sb-53.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/sb-energy.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/schizophrenia.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/scott-bessent.html</loc></url>
@@ -459,7 +466,6 @@
   <url><loc>https://aibrief.fyi/entity/truefoundry.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/trusted-access-for-cyber.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/trusted-contact.html</loc></url>
-  <url><loc>https://aibrief.fyi/entity/twitch.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/u-s-food-and-drug-administration.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/uk-government.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/ukraine.html</loc></url>
@@ -488,6 +494,13 @@
   <url><loc>https://aibrief.fyi/entity/zeev-farbman.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zelda-williams.html</loc></url>
   <url><loc>https://aibrief.fyi/entity/zoom.html</loc></url>
+  <url><loc>https://aibrief.fyi/events/alibaba-plans-10-20-billion-share-placement-to-fund-ai-investment.html</loc><lastmod>2026-08-24</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/twitch-and-amazon-face-class-action-lawsuit-over-alleged-ai-training-on.html</loc><lastmod>2026-08-23</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/nvidia-reportedly-commits-6-billion-with-poolside-to-build-a-u-s-based-open-ai.html</loc><lastmod>2026-08-23</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/harvard-business-school-launches-a-startup-bootcamp-with-ai-avatars-of-its.html</loc><lastmod>2026-08-22</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/inherent-unveils-faraday-and-claims-strong-results-on-scientific-paper.html</loc><lastmod>2026-08-22</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/openai-urges-california-to-strengthen-sb-53-after-previously-opposing-the-bill.html</loc><lastmod>2026-08-22</lastmod></url>
+  <url><loc>https://aibrief.fyi/events/study-finds-frontier-ai-labs-disclose-little-about-rogue-model-containment-plans.html</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://aibrief.fyi/events/michael-polansky-publicly-reveals-an-ai-startup-using-living-human-skin-tissue.html</loc><lastmod>2026-08-22</lastmod></url>
   <url><loc>https://aibrief.fyi/events/nvidia-partners-with-cloverleaf-on-ai-data-center-development.html</loc><lastmod>2026-08-21</lastmod></url>
   <url><loc>https://aibrief.fyi/events/rillet-raises-100-million-as-ai-accounting-startup-reaches-unicorn-valuation.html</loc><lastmod>2026-08-21</lastmod></url>
