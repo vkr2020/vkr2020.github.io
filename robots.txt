@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
-
+Disallow: /search/
+Disallow: /incoming/
 Sitemap: https://aibrief.fyi/sitemap.xml

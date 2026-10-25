@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">aibrief.fyi</title>
+  <path fill="#171717" d="M14 2h29l19 19v29c0 6.6-5.4 12-12 12H14C7.4 62 2 56.6 2 50V14C2 7.4 7.4 2 14 2Z"/>
+  <path fill="#c23a22" d="M43 2v12c0 4.4 3.6 8 8 8h11L43 2Z"/>
+  <path fill="#fafaf7" fill-rule="evenodd" d="M10 43c0-8 5.9-13 13.8-13 3.2 0 6 1 8.2 2.9V31h7v24h-7v-2c-2.2 1.9-5 3-8.2 3C15.9 56 10 51 10 43Zm8 0c0 3.7 2.5 6.2 6.3 6.2s6.3-2.5 6.3-6.2-2.5-6.2-6.3-6.2S18 39.3 18 43Z"/>
+  <circle cx="47" cy="31" r="4" fill="#fafaf7"/>
+  <rect x="43" y="37" width="8" height="18" rx="4" fill="#fafaf7"/>
+</svg>
